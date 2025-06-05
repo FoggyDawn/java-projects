@@ -1,3 +1,0 @@
-|''login''|NAME|''with''|PASS|
-
-|'''show'''|''get''|NAME 公|

@@ -1,5 +1,0 @@
-<com.itextpdf.rups.Rups$1: void <init>()>
-<com.itextpdf.rups.Rups: void main(java.lang.String[])>
-<java.lang.Object: void <clinit>()>
-<java.lang.Object: void <init>()>
-<javax.swing.SwingUtilities: void invokeLater(java.lang.Runnable)>

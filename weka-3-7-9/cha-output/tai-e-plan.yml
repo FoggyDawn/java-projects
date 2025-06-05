@@ -1,6 +1,0 @@
-- id: cg
-  options:
-    algorithm: cha
-    dump: true
-    dump-methods: true
-    dump-call-edges: true

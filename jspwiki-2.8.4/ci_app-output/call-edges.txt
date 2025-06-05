@@ -1,4 +1,0 @@
-<com.ecyrd.jspwiki.Release: void <clinit>()>/java.lang.StringBuilder.<init>/0	<java.lang.StringBuilder: void <init>()>
-<com.ecyrd.jspwiki.Release: void <clinit>()>/java.lang.StringBuilder.append/0	<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>
-<com.ecyrd.jspwiki.Release: void <clinit>()>/java.lang.String.length/0	<java.lang.String: int length()>
-<com.ecyrd.jspwiki.Release: void <clinit>()>/java.lang.String.length/1	<java.lang.String: int length()>
