@@ -1,0 +1,58 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/marauroa-3.8.1/cs1call-output
+Writing options to /home/byx/testSpace/javaprjs/marauroa-3.8.1/cs1call-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/marauroa-3.8.1/cs1call-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/marauroa-3.8.1/cs1call-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/marauroa-3.8.1/bin ... 227 classes
+5298 classes with 51959 methods in the world
+WorldBuilder finishes, elapsed time: 5.06s
+pta starts ...
+[Pointer analysis] elapsed time: 9.85s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                5,5741 (insens) / 26,0939 (sens)
+#objects:                     6190 (insens) / 6508 (sens)
+#var points-to:               228,7859 (insens) / 1880,6946 (sens)
+#static field points-to:      4239 (sens)
+#instance field points-to:    30,8898 (sens)
+#array points-to:             3,2026 (sens)
+#reachable methods:           8258 (insens) / 5,1543 (sens)
+#call graph edges:            5,1120 (insens) / 77,3192 (sens)
+----------------------------------------
+pta finishes, elapsed time: 11.12s
+cg starts ...
+Call graph has 8258 reachable methods and 51120 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/marauroa-3.8.1/cs1call-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/marauroa-3.8.1/cs1call-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/marauroa-3.8.1/cs1call-output/call-edges.txt
+cg finishes, elapsed time: 0.79s
+Tai-e finishes, elapsed time: 17.21s
+[Task Info]
+Task Name: cs1call
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: cs1call-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/marauroa-3.8.1
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/marauroa-3.8.1/cs1call_logs/run_20250523-193341.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/marauroa-3.8.1/cs1call-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-05-23 19:33:41
+Duration: 17.77s
+Peak Memory: 1633.14 MB
+Exit Code: 0

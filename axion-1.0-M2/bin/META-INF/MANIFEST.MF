@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Created-By: Apache Jakarta Maven
+Built-By: rwaldhof
+Package: org.axiondb
+Build-Jdk: 1.4.1_02
+
+Name: org.axiondb
+Specification-Title: axion
+Specification-Version: 1.0-M2
+Specification-Vendor: Axion Development Team
+Implementation-Title: org.axiondb
+Implementation-Version: 1.0-M2
+Implementation-Vendor: Axion Development Team
+

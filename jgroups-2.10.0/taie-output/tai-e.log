@@ -1,0 +1,41 @@
+Writing log to /home/byx/testSpace/javaprjs/jgroups-2.10.0/taie-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/jgroups-2.10.0/taie-output/tai-e-plan.yml
+WorldBuilder starts ...
+8650 classes with 80386 methods in the world
+WorldBuilder finishes, elapsed time: 8.59s
+pta starts ...
+[Pointer analysis] elapsed time: 20.34s
+Imprecise reflective calls:
+[Array.newInstance]<com.sun.beans.TypeResolver: java.lang.reflect.Type resolve(java.lang.reflect.Type,java.lang.reflect.Type)>[12@L164] $r31 = invokestatic java.lang.reflect.Array.newInstance($r30, %intconst0), #targets: 68
+[Array.newInstance]<com.sun.beans.TypeResolver: java.lang.Class erase(java.lang.reflect.Type)>[38@L256] $r9 = invokestatic java.lang.reflect.Array.newInstance($r8, %intconst0), #targets: 68
+[Array.newInstance]<com.sun.beans.TypeResolver: java.lang.reflect.Type fixGenericArray(java.lang.reflect.Type)>[9@L347] $r5 = invokestatic java.lang.reflect.Array.newInstance($r4, %intconst0), #targets: 68
+[Array.newInstance]<java.lang.Class: java.lang.Class toClass(java.lang.reflect.Type)>[6@L1126] $r5 = invokestatic java.lang.reflect.Array.newInstance($r4, %intconst0), #targets: 68
+[Array.newInstance]<sun.reflect.annotation.AnnotationParser: java.lang.Class toClass(java.lang.reflect.Type)>[6@L445] $r5 = invokestatic java.lang.reflect.Array.newInstance($r4, %intconst0), #targets: 68
+-------------- Pointer analysis statistics: --------------
+#var pointers:                10,0008 (insens) / 37,7983 (sens)
+#objects:                     1,2014 (insens) / 1,3501 (sens)
+#var points-to:               853,4452 (insens) / 5272,3096 (sens)
+#static field points-to:      1,3479 (sens)
+#instance field points-to:    140,9555 (sens)
+#array points-to:             27,1793 (sens)
+#reachable methods:           1,4919 (insens) / 7,7301 (sens)
+#call graph edges:            7,6010 (insens) / 49,2406 (sens)
+----------------------------------------
+pta finishes, elapsed time: 22.87s
+cg starts ...
+Call graph has 14919 reachable methods and 76010 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/jgroups-2.10.0/taie-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/jgroups-2.10.0/taie-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/jgroups-2.10.0/taie-output/call-edges.txt
+cg finishes, elapsed time: 1.27s
+Tai-e finishes, elapsed time: 32.91s

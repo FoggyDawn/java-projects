@@ -1,0 +1,58 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/sablecc-3.2/ci-output
+Writing options to /home/byx/testSpace/javaprjs/sablecc-3.2/ci-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/sablecc-3.2/ci-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/sablecc-3.2/ci-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/sablecc-3.2/bin ... 286 classes
+7059 classes with 67246 methods in the world
+WorldBuilder finishes, elapsed time: 3.97s
+pta starts ...
+[Pointer analysis] elapsed time: 6.28s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                7,4264 (insens) / 7,4264 (sens)
+#objects:                     8513 (insens) / 8513 (sens)
+#var points-to:               762,9457 (insens) / 762,9457 (sens)
+#static field points-to:      3056 (sens)
+#instance field points-to:    122,9924 (sens)
+#array points-to:             19,4387 (sens)
+#reachable methods:           1,0073 (insens) / 1,0073 (sens)
+#call graph edges:            6,2316 (insens) / 6,2317 (sens)
+----------------------------------------
+pta finishes, elapsed time: 6.93s
+cg starts ...
+Call graph has 10073 reachable methods and 62316 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/sablecc-3.2/ci-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/sablecc-3.2/ci-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/sablecc-3.2/ci-output/call-edges.txt
+cg finishes, elapsed time: 0.92s
+Tai-e finishes, elapsed time: 11.97s
+[Task Info]
+Task Name: ci
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: ci-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/sablecc-3.2
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/sablecc-3.2/ci_logs/run_20250523-191721.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/sablecc-3.2/ci-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-05-23 19:17:21
+Duration: 12.45s
+Peak Memory: 1271.30 MB
+Exit Code: 0

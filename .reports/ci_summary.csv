@@ -1,0 +1,77 @@
+项目名称,日志文件,检测时间,运行状态,异常信息
+aoi-2.8.1,run_20250523-134153.log,2025-05-23 13:41:53,成功,无
+oscache-2.4.1,run_20250523-134227.log,2025-05-23 13:42:27,失败,"Exception in thread ""main"" java.lang.RuntimeException: Failed to convert <org.objectweb.asm.util.TraceClassVisitor: org.objectweb.asm.AnnotationVisitor visitAnnotation(java.lang.String,boolean)>"
+pmd-4.2.5,run_20250523-134233.log,2025-05-23 13:42:33,失败,"Exception in thread ""main"" java.lang.RuntimeException: Failed to convert <org.objectweb.asm.AnnotationVisitor: void visit(java.lang.String,java.lang.Object)>"
+wct-1.5.2,run_20250523-134238.log,2025-05-23 13:42:38,失败,"Exception in thread ""main"" java.lang.RuntimeException: Failed to convert <org.objectweb.asm.util.TraceClassVisitor: org.objectweb.asm.AnnotationVisitor visitAnnotation(java.lang.String,boolean)>"
+tomcat-7.0.2,run_20250523-134245.log,2025-05-23 13:42:45,失败,"Exception in thread ""main"" java.lang.RuntimeException: Failed to convert <tomcat-jasper.org.apache.jasper.servlet.JspServletWrapper: javax.servlet.Servlet getServlet()>"
+velocity-1.6.4,run_20250523-134249.log,2025-05-23 13:42:49,失败,"Exception in thread ""main"" java.lang.RuntimeException: Main-class has no main method!"
+castor-1.3.1,run_20250523-134254.log,2025-05-23 13:42:54,失败,"Exception in thread ""main"" java.lang.RuntimeException: Main-class has no main method!"
+jedit-4.3.2,run_20250523-134256.log,2025-05-23 13:42:56,成功,无
+itext-5.0.3,run_20250523-134326.log,2025-05-23 13:43:26,成功,无
+emma-2.0.5312,run_20250523-134344.log,2025-05-23 13:43:44,成功,无
+picocontainer-2.10.2,run_20250523-134353.log,2025-05-23 13:43:53,失败,"Exception in thread ""main"" java.lang.RuntimeException: Main-class has no main method!"
+pooka-3.0-080505,run_20250523-134358.log,2025-05-23 13:43:58,成功,无
+jag-6.1,run_20250523-134431.log,2025-05-23 13:44:31,成功,无
+proguard-4.5.1,run_20250523-134444.log,2025-05-23 13:44:44,成功,无
+commons-collections-3.2.1,run_20250523-134455.log,2025-05-23 13:44:55,失败,no reachable
+openjms-0.7.7-beta-1,run_20250523-134459.log,2025-05-23 13:44:59,成功,无
+xalan-2.7.1,run_20250523-134510.log,2025-05-23 13:45:10,成功,无
+jgroups-2.10.0,run_20250523-134543.log,2025-05-23 13:45:43,成功,无
+megamek-0.35.18,run_20250523-134612.log,2025-05-23 13:46:12,成功,无
+colt-1.2.0,run_20250523-134643.log,2025-05-23 13:46:43,失败,no reachable
+jext-5.0,run_20250523-134648.log,2025-05-23 13:46:48,成功,无
+jasml-0.10,run_20250523-134713.log,2025-05-23 13:47:13,成功,无
+batik-1.7,run_20250523-134722.log,2025-05-23 13:47:22,成功,无
+jhotdraw-7.5.1,run_20250523-134816.log,2025-05-23 13:48:16,成功,无
+trove-2.1.0,run_20250523-134854.log,2025-05-23 13:48:54,失败,no reachable
+freecs-1.3.20100406,run_20250523-134900.log,2025-05-23 13:49:00,成功,无
+displaytag-1.2,run_20250523-134914.log,2025-05-23 13:49:14,失败,"Exception in thread ""main"" java.lang.RuntimeException: Failed to convert <org.apache.jasper.servlet.JspServletWrapper: javax.servlet.Servlet getServlet()>"
+quartz-1.8.3,run_20250523-134917.log,2025-05-23 13:49:17,成功,无
+ivatagroupware-0.11.3,run_20250523-134932.log,2025-05-23 13:49:32,失败,"Exception in thread ""main"" java.lang.RuntimeException: Failed to convert <org.objectweb.asm.util.TraceClassVisitor: org.objectweb.asm.AnnotationVisitor visitAnnotation(java.lang.String,boolean)>"
+squirrel_sql-3.1.2,run_20250523-134940.log,2025-05-23 13:49:40,失败,"Exception in thread ""main"" java.lang.RuntimeException: Failed to convert <org.objectweb.asm.util.TraceClassVisitor: org.objectweb.asm.AnnotationVisitor visitAnnotation(java.lang.String,boolean)>"
+javacc-5.0,run_20250523-134951.log,2025-05-23 13:49:51,成功,无
+jfreechart-1.0.13,run_20250523-135007.log,2025-05-23 13:50:07,成功,无
+webmail-0.7.10,run_20250523-135014.log,2025-05-23 13:50:14,失败,"Exception in thread ""main"" java.lang.RuntimeException: Main-class has no main method!"
+nekohtml-1.9.14,run_20250523-135020.log,2025-05-23 13:50:20,失败,"Exception in thread ""main"" java.lang.NullPointerException: TwoKeyMap does not permit null keys"
+ApacheJMeter_core-3.1,run_20250523-135027.log,2025-05-23 13:50:27,失败,"Exception in thread ""main"" java.lang.RuntimeException: Main-class has no main method!"
+marauroa-3.8.1,run_20250523-135038.log,2025-05-23 13:50:38,成功,无
+mockito-core-2.7.17,run_20250523-135051.log,2025-05-23 13:50:51,失败,"Exception in thread ""main"" java.lang.RuntimeException: Main-class has no main method!"
+jsXe-04_beta,run_20250523-135055.log,2025-05-23 13:50:55,失败,"Exception in thread ""main"" java.lang.RuntimeException: Main-class has no main method!"
+htmlunit-2.8,run_20250523-135103.log,2025-05-23 13:51:03,失败,no reachable
+weka-3-7-9,run_20250523-135110.log,2025-05-23 13:51:10,成功,无
+axion-1.0-M2,run_20250523-135205.log,2025-05-23 13:52:05,成功,无
+log4j-1.2.16,run_20250523-135215.log,2025-05-23 13:52:15,成功,无
+sandmark-3.4,run_20250523-135233.log,2025-05-23 13:52:33,成功,无
+fitjava-1.1,run_20250523-135246.log,2025-05-23 13:52:46,成功,无
+lucene-4.3.0,run_20250523-135254.log,2025-05-23 13:52:54,失败,no reachable
+checkstyle-5.1,run_20250523-135257.log,2025-05-23 13:52:57,成功,无
+jasperreports-1.1.0,run_20250523-135308.log,2025-05-23 13:53:08,失败,"Exception in thread ""main"" java.lang.RuntimeException: Failed to apply jb to <net.sf.jasperreports.crosstabs.fill.calculation.BucketDefinition: void <init>(java.lang.Class,java.util.Comparator,byte,byte)>"
+quilt-0.6-a-5,run_20250523-135311.log,2025-05-23 13:53:11,成功,无
+jmoney-0.4.4,run_20250523-135323.log,2025-05-23 13:53:23,成功,无
+mvnforum-1.2.2-ga,run_20250523-135335.log,2025-05-23 13:53:35,失败,no reachable
+guava-21.0,run_20250523-135345.log,2025-05-23 13:53:45,失败,no reachable
+fitlibraryforfitnesse-20100806,run_20250523-135352.log,2025-05-23 13:53:52,成功,无
+asm-5.2,run_20250523-135405.log,2025-05-23 13:54:05,失败,no reachable
+drawswf-1.2.9,run_20250523-135408.log,2025-05-23 13:54:08,成功,无
+jgrapht-0.8.1,run_20250523-135421.log,2025-05-23 13:54:21,成功,无
+jspwiki-2.8.4,run_20250523-135437.log,2025-05-23 13:54:37,成功,无
+drools-7.0.0.Beta6,run_20250523-135452.log,2025-05-23 13:54:52,失败,no reachable
+jgraphpad-5.10.0.2,run_20250523-135513.log,2025-05-23 13:55:13,失败,"Exception in thread ""main"" java.lang.RuntimeException: Main-class has no main method!"
+jparse-0.96,run_20250523-135519.log,2025-05-23 13:55:19,失败,"Exception in thread ""main"" java.lang.RuntimeException: Main-class has no main method!"
+sunflow-0.07.2,run_20250523-135525.log,2025-05-23 13:55:25,成功,无
+galleon-2.3.0,run_20250523-135555.log,2025-05-23 13:55:55,失败,"Exception in thread ""main"" java.lang.RuntimeException: Failed to convert <org.objectweb.asm.util.TraceClassVisitor: org.objectweb.asm.AnnotationVisitor visitAnnotation(java.lang.String,boolean)>"
+jrefactory-2.9.19,run_20250523-135607.log,2025-05-23 13:56:07,成功,无
+freecol-0.10.7,run_20250523-135629.log,2025-05-23 13:56:29,成功,无
+findbugs-1.3.9,run_20250523-135705.log,2025-05-23 13:57:05,失败,"Exception in thread ""main"" java.lang.RuntimeException: Failed to convert <org.objectweb.asm.tree.ClassNode: void accept(org.objectweb.asm.ClassVisitor)>"
+jpf-1.5.1,run_20250523-135713.log,2025-05-23 13:57:13,失败,"Exception in thread ""main"" java.lang.RuntimeException: Main-class has no main method!"
+jrat-0.6,run_20250523-135718.log,2025-05-23 13:57:18,成功,无
+jgraph-5.13.0.0,run_20250523-135727.log,2025-05-23 13:57:27,失败,no reachable
+informa-0.7.0-alpha2,run_20250523-135731.log,2025-05-23 13:57:31,失败,"Exception in thread ""main"" java.lang.RuntimeException: Failed to convert <org.objectweb.asm.util.TraceClassVisitor: org.objectweb.asm.AnnotationVisitor visitAnnotation(java.lang.String,boolean)>"
+c_jdbc-2.0.2,run_20250523-135738.log,2025-05-23 13:57:38,失败,"Exception in thread ""main"" java.lang.RuntimeException: Main-class has no main method!"
+tapestry-5.1.0.5,run_20250523-135754.log,2025-05-23 13:57:54,失败,"Exception in thread ""main"" java.lang.RuntimeException: Failed to convert <org.objectweb.asm.util.TraceClassVisitor: org.objectweb.asm.AnnotationVisitor visitAnnotation(java.lang.String,boolean)>"
+aspectj-1.6.9,run_20250523-135803.log,2025-05-23 13:58:03,失败,"Exception in thread ""main"" java.lang.RuntimeException: Main-class has no main method!"
+jena-2.6.3,run_20250523-135806.log,2025-05-23 13:58:06,失败,"Exception in thread ""main"" java.lang.RuntimeException: Main-class has no main method!"
+james-2.2.0,run_20250523-135815.log,2025-05-23 13:58:15,成功,无
+jFin_DateMath-R1.0.1,run_20250523-135820.log,2025-05-23 13:58:20,失败,no reachable
+xerces-2.10.0,run_20250523-135824.log,2025-05-23 13:58:24,失败,no reachable
+sablecc-3.2,run_20250523-135836.log,2025-05-23 13:58:36,成功,无

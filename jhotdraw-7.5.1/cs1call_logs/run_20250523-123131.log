@@ -1,0 +1,94 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/jhotdraw-7.5.1/cs1call-output
+Writing options to /home/byx/testSpace/javaprjs/jhotdraw-7.5.1/cs1call-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/jhotdraw-7.5.1/cs1call-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/jhotdraw-7.5.1/cs1call-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/jhotdraw-7.5.1/bin ... 1095 classes
+7064 classes with 66335 methods in the world
+WorldBuilder finishes, elapsed time: 6.03s
+pta starts ...
+[Pointer analysis] elapsed time: 35.55s
+Imprecise reflective calls:
+[Class.newInstance]<org.jhotdraw.xml.DefaultDOMFactory: java.lang.Object create(java.lang.String)>[16@L86] $r9 = invokevirtual $r8.newInstance(), #targets: 112
+[Method.invoke]<org.jhotdraw.xml.DefaultDOMFactory: java.lang.Object create(java.lang.String)>[34@L94] $r7 = invokevirtual $r5.invoke($r2, $r6), #targets: 110
+[Class.forName]<javax.swing.SwingUtilities: java.lang.Class loadSystemClass(java.lang.String)>[3@L1850] $r3 = invokestatic java.lang.Class.forName(r0, %intconst0, $r2), #targets: 76
+[Class.forName]<java.security.Policy: java.security.Policy getPolicyNoCheck()>[23@L178] $r9 = invokestatic java.lang.Class.forName(r28), #targets: 75
+[Class.forName]<java.security.Policy$2: java.security.Policy run()>[9@L208] $r2 = invokestatic java.lang.Class.forName($r1, %intconst0, r14), #targets: 75
+[Class.forName]<sun.awt.SunToolkit$1: void run()>[3@L86] $r1 = invokestatic java.lang.Class.forName($r0), #targets: 75
+[Class.forName]<sun.security.provider.PolicyFile: void addPermissions(java.security.Permissions,java.security.CodeSource,java.security.Principal[],sun.security.provider.PolicyFile$PolicyEntry)>[88@L1368] $r20 = invokestatic java.lang.Class.forName($r17, %intconst5, $r19), #targets: 75
+[Class.forName]<java.awt.EventDispatchThread: boolean handleException(java.lang.Throwable)>[22@L376] $r6 = invokestatic java.lang.Class.forName($r5, %intconst2, $r4), #targets: 74
+[Class.forName]<java.awt.GraphicsEnvironment: java.awt.GraphicsEnvironment getLocalGraphicsEnvironment()>[7@L68] $r5 = invokestatic java.lang.Class.forName(r4), #targets: 74
+[Class.forName]<java.awt.Toolkit: void loadAssistiveTechnologies()>[14@L769] r31 = invokestatic java.lang.Class.forName($r4), #targets: 74
+[Class.forName]<java.awt.Toolkit$2: java.lang.Object run()>[6@L834] r34 = invokestatic java.lang.Class.forName($r0), #targets: 74
+[Class.forName]<java.awt.datatransfer.DataFlavor: java.lang.Class tryToLoadClass(java.lang.String,java.lang.ClassLoader)>[5@L116] $r4 = invokestatic java.lang.Class.forName(r3, %intconst0, r2), #targets: 74
+[Class.forName]<java.awt.datatransfer.DataFlavor: java.lang.Class tryToLoadClass(java.lang.String,java.lang.ClassLoader)>[9@L119] $r8 = invokestatic java.lang.Class.forName(r3, %intconst0, r6), #targets: 74
+[Class.forName]<java.lang.SystemClassLoaderAction: java.lang.Object run()>[14@L2071] $r6 = invokestatic java.lang.Class.forName($r4, %intconst0, $r5), #targets: 74
+[Class.forName]<java.security.Provider$Service: java.lang.Class getImplClass()>[13@L1260] r23 = invokestatic java.lang.Class.forName($r7), #targets: 74
+[Class.forName]<java.security.Provider$Service: java.lang.Class getKeyClass(java.lang.String)>[0@L1402] $r1 = invokestatic java.lang.Class.forName(r0), #targets: 74
+[Class.forName]<java.util.ResourceBundle$RBClassLoader: java.lang.Class loadClass(java.lang.String)>[5@L437] $r2 = invokestatic java.lang.Class.forName(r1), #targets: 74
+[Class.forName]<java.util.ServiceLoader$LazyIterator: java.lang.Object next()>[10@L346] r32 = invokestatic java.lang.Class.forName(r1, %intconst0, $r2), #targets: 74
+[Class.forName]<java.util.prefs.Preferences: java.util.prefs.PreferencesFactory factory()>[7@L225] $r7 = invokestatic java.lang.Class.forName(r2, %intconst0, $r6), #targets: 74
+[Class.forName]<java.util.prefs.Preferences: java.util.prefs.PreferencesFactory factory()>[19@L237] $r20 = invokestatic java.lang.Class.forName(r2, %intconst0, $r19), #targets: 74
+[Class.forName]<javax.crypto.SunJCE_e: java.security.spec.AlgorithmParameterSpec a(java.lang.String,java.lang.Integer[])>[0@L-1] $r1 = invokestatic java.lang.Class.forName(r0), #targets: 74
+[Class.forName]<javax.swing.JEditorPane: javax.swing.text.EditorKit createEditorKitForContentType(java.lang.String)>[16@L1278] r17 = invokestatic java.lang.Class.forName(r7, %intconst0, $r12), #targets: 74
+[Class.forName]<javax.swing.text.html.ObjectView: java.awt.Component createComponent()>[8@L73] $r8 = invokestatic java.lang.Class.forName(r5, %intconst0, $r7), #targets: 74
+[Class.forName]<net.n3.nanoxml.XMLParserFactory: net.n3.nanoxml.IXMLParser createXMLParser(java.lang.String,net.n3.nanoxml.IXMLBuilder)>[0@L143] $r1 = invokestatic java.lang.Class.forName(r0), #targets: 74
+[Class.forName]<sun.awt.SunToolkit: void <init>()>[20@L70] $r5 = invokestatic java.lang.Class.forName($r3), #targets: 74
+[Class.forName]<sun.awt.shell.ShellFolder: void <clinit>()>[6@L187] r20 = invokestatic java.lang.Class.forName(r2), #targets: 74
+[Class.forName]<sun.misc.Service$LazyIterator: java.lang.Object next()>[10@L272] r29 = invokestatic java.lang.Class.forName(r1, %intconst0, $r2), #targets: 74
+[Class.forName]<sun.security.provider.PolicyFile: java.security.Permission getInstance(java.lang.String,java.lang.String,java.lang.String)>[0@L942] $r1 = invokestatic java.lang.Class.forName(r0), #targets: 74
+[Method.invoke]<sun.swing.SwingLazyValue: java.lang.Object createValue(javax.swing.UIDefaults)>[11@L56] $r14 = invokevirtual $r12.invoke($r2, $r13), #targets: 68
+[Class.newInstance]<java.awt.EventDispatchThread: boolean handleException(java.lang.Throwable)>[28@L378] $r9 = invokevirtual $r6.newInstance(), #targets: 64
+[Class.newInstance]<java.awt.Toolkit: void loadAssistiveTechnologies()>[15@L771] invokevirtual r31.newInstance(), #targets: 64
+[Class.newInstance]<java.security.Provider$Service: java.lang.Object newInstance(java.lang.Object)>[47@L1221] $r24 = invokevirtual $r23.newInstance(), #targets: 64
+[Class.newInstance]<java.security.Provider$Service: java.lang.Object newInstanceGeneric(java.lang.Object)>[2@L1283] $r19 = invokevirtual $r1.newInstance(), #targets: 64
+[Class.newInstance]<java.util.ServiceLoader$LazyIterator: java.lang.Object next()>[36@L356] $r5 = invokevirtual r32.newInstance(), #targets: 64
+[Class.newInstance]<sun.misc.Service$LazyIterator: java.lang.Object next()>[36@L282] $r5 = invokevirtual r29.newInstance(), #targets: 64
+-------------- Pointer analysis statistics: --------------
+#var pointers:                14,0076 (insens) / 64,7674 (sens)
+#objects:                     1,6193 (insens) / 1,7057 (sens)
+#var points-to:               1770,1050 (insens) / 1,3659,5640 (sens)
+#static field points-to:      2,2833 (sens)
+#instance field points-to:    329,7719 (sens)
+#array points-to:             18,7312 (sens)
+#reachable methods:           2,1591 (insens) / 12,4087 (sens)
+#call graph edges:            12,2744 (insens) / 83,8181 (sens)
+----------------------------------------
+pta finishes, elapsed time: 41.13s
+cg starts ...
+Call graph has 21591 reachable methods and 122744 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/jhotdraw-7.5.1/cs1call-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/jhotdraw-7.5.1/cs1call-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/jhotdraw-7.5.1/cs1call-output/call-edges.txt
+cg finishes, elapsed time: 1.71s
+Tai-e finishes, elapsed time: 49.03s
+[Task Info]
+Task Name: cs1call
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: cs1call-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/jhotdraw-7.5.1
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/jhotdraw-7.5.1/cs1call_logs/run_20250523-123131.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/jhotdraw-7.5.1/cs1call-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-05-23 12:31:31
+Duration: 49.56s
+Peak Memory: 3968.01 MB
+Exit Code: 0

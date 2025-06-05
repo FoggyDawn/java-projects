@@ -1,0 +1,50 @@
+<jrat>
+
+
+	
+    <handler>
+    	<!--
+		All events should be sent to this stat handler.  
+		The handler will use it's default configuration because no properties are supplied.
+		-->
+        <factory class="org.shiftone.jrat.provider.stats.StatMethodHandlerFactory"/>
+    </handler>
+
+	<handler>
+		<!--
+		All calls to the service() methods of servlets will be sent to this rate handler.  
+		The handler will use it's default configuration because no properties are supplied.
+		-->
+		<include className="*Servlet" methodName="service" signature="*"/>
+        <factory class="org.shiftone.jrat.provider.rate.RateMethodHandlerFactory"/>
+    </handler>
+
+    <handler>
+
+		<!--
+		All calls to non-accessor methods will be sent to these handlers - the log handler
+		and the tree handler.  
+		The handlers each have several properteries defined so their default behavior may
+		be overridden.
+		-->
+		
+        <!-- should not need this
+        <include className="*" methodName="*" signature="*"/>
+        -->
+        <exclude className="*" methodName="get*" signature="*"/>
+        <exclude className="*" methodName="set*" signature="*"/>
+        <exclude className="*" methodName="is*"  signature="*"/>
+
+        <factory class="org.shiftone.jrat.provider.log.LogMethodHandlerFactory"/>
+        
+        <factory class="org.shiftone.jrat.provider.tree.TreeMethodHandlerFactory">
+            
+            <property name="CompressOutput" value="false"/>
+            <property name="OutputFile"     value="myTree"/>
+
+        </factory>
+        
+
+    </handler>
+
+</jrat>

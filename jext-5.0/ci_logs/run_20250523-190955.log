@@ -1,0 +1,61 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/jext-5.0/ci-output
+Writing options to /home/byx/testSpace/javaprjs/jext-5.0/ci-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/jext-5.0/ci-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/jext-5.0/ci-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/jext-5.0/bin ... 466 classes
+5600 classes with 53245 methods in the world
+WorldBuilder finishes, elapsed time: 5.48s
+pta starts ...
+[Pointer analysis] elapsed time: 11.83s
+Imprecise reflective calls:
+[Class.newInstance]<java.security.Provider$Service: java.lang.Object newInstance(java.lang.Object)>[24@L-1] $r20 = invokevirtual $r19.newInstance(), #targets: 138
+[Class.newInstance]<java.security.Provider$Service: java.lang.Object newInstanceGeneric(java.lang.Object)>[2@L-1] $r19 = invokevirtual $r1.newInstance(), #targets: 138
+-------------- Pointer analysis statistics: --------------
+#var pointers:                12,0575 (insens) / 12,0575 (sens)
+#objects:                     1,3664 (insens) / 1,3664 (sens)
+#var points-to:               1426,3027 (insens) / 1426,3027 (sens)
+#static field points-to:      4,5532 (sens)
+#instance field points-to:    279,2005 (sens)
+#array points-to:             32,8979 (sens)
+#reachable methods:           1,8441 (insens) / 1,8441 (sens)
+#call graph edges:            11,2044 (insens) / 11,2044 (sens)
+----------------------------------------
+pta finishes, elapsed time: 13.17s
+cg starts ...
+Call graph has 18441 reachable methods and 112044 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/jext-5.0/ci-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/jext-5.0/ci-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/jext-5.0/ci-output/call-edges.txt
+cg finishes, elapsed time: 1.67s
+Tai-e finishes, elapsed time: 20.48s
+[Task Info]
+Task Name: ci
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: ci-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/jext-5.0
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/jext-5.0/ci_logs/run_20250523-190955.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/jext-5.0/ci-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-05-23 19:09:55
+Duration: 20.96s
+Peak Memory: 3015.91 MB
+Exit Code: 0

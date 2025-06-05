@@ -1,0 +1,79 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/jext-5.0/ci-output
+Writing options to /home/byx/testSpace/javaprjs/jext-5.0/ci-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/jext-5.0/ci-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/jext-5.0/ci-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/jext-5.0/bin ... 466 classes
+Exception in thread "main" java.lang.RuntimeException: java.util.concurrent.ExecutionException: java.lang.Exception: Error: The path '/home/byx/testSpace/javaprjs/lib/maven-artifact-2.0.jar' does not exist.
+	at soot.SourceLocator.getClassSourceType(SourceLocator.java:346)
+	at soot.SourceLocator.lookupInClassPath(SourceLocator.java:674)
+	at soot.asm.AsmClassProvider.find(AsmClassProvider.java:40)
+	at soot.SourceLocator.getClassSource(SourceLocator.java:220)
+	at soot.Scene.tryLoadClass(Scene.java:981)
+	at soot.Scene.loadBasicClasses(Scene.java:1833)
+	at soot.Scene.loadNecessaryClasses(Scene.java:1952)
+	at soot.Main.run(Main.java:240)
+	at pascal.taie.frontend.soot.SootWorldBuilder.runSoot(SootWorldBuilder.java:253)
+	at pascal.taie.frontend.soot.SootWorldBuilder.build(SootWorldBuilder.java:83)
+	at pascal.taie.Main.lambda$buildWorld$3(Main.java:134)
+	at pascal.taie.util.Timer.lambda$runAndCount$0(Timer.java:112)
+	at pascal.taie.util.Timer.runAndCount(Timer.java:93)
+	at pascal.taie.util.Timer.runAndCount(Timer.java:111)
+	at pascal.taie.util.Timer.runAndCount(Timer.java:107)
+	at pascal.taie.Main.buildWorld(Main.java:126)
+	at pascal.taie.Main.lambda$main$0(Main.java:61)
+	at pascal.taie.util.Timer.lambda$runAndCount$0(Timer.java:112)
+	at pascal.taie.util.Timer.runAndCount(Timer.java:93)
+	at pascal.taie.util.Timer.runAndCount(Timer.java:111)
+	at pascal.taie.util.Timer.runAndCount(Timer.java:107)
+	at pascal.taie.Main.main(Main.java:52)
+Caused by: java.util.concurrent.ExecutionException: java.lang.Exception: Error: The path '/home/byx/testSpace/javaprjs/lib/maven-artifact-2.0.jar' does not exist.
+	at com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:588)
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:547)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.get(AbstractFuture.java:113)
+	at com.google.common.util.concurrent.Uninterruptibles.getUninterruptibly(Uninterruptibles.java:204)
+	at com.google.common.cache.LocalCache$Segment.getAndRecordStats(LocalCache.java:2235)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2201)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2159)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2049)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3855)
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3878)
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4780)
+	at soot.SourceLocator.getClassSourceType(SourceLocator.java:344)
+	... 21 more
+Caused by: java.lang.Exception: Error: The path '/home/byx/testSpace/javaprjs/lib/maven-artifact-2.0.jar' does not exist.
+	at soot.SourceLocator$1.load(SourceLocator.java:111)
+	at soot.SourceLocator$1.load(SourceLocator.java:106)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3451)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2200)
+	... 27 more
+[Task Info]
+Task Name: ci
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: ci-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/jext-5.0
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/jext-5.0/ci_logs/run_20250523-180724.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/jext-5.0/ci-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-05-23 18:07:24
+Duration: 1.20s
+Peak Memory: 309.31 MB
+Exit Code: 1

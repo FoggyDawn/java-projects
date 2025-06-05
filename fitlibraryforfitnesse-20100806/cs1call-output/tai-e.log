@@ -1,0 +1,35 @@
+Writing log to /home/byx/testSpace/javaprjs/fitlibraryforfitnesse-20100806/cs1call-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/fitlibraryforfitnesse-20100806/cs1call-output/tai-e-plan.yml
+WorldBuilder starts ...
+7919 classes with 67051 methods in the world
+WorldBuilder finishes, elapsed time: 6.01s
+pta starts ...
+[Pointer analysis] elapsed time: 6.07s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                4,6122 (insens) / 18,7612 (sens)
+#objects:                     4927 (insens) / 4967 (sens)
+#var points-to:               117,2939 (insens) / 734,6908 (sens)
+#static field points-to:      3517 (sens)
+#instance field points-to:    20,7404 (sens)
+#array points-to:             1,6209 (sens)
+#reachable methods:           7192 (insens) / 3,8606 (sens)
+#call graph edges:            3,8245 (insens) / 31,5199 (sens)
+----------------------------------------
+pta finishes, elapsed time: 6.91s
+cg starts ...
+Call graph has 7192 reachable methods and 38245 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/fitlibraryforfitnesse-20100806/cs1call-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/fitlibraryforfitnesse-20100806/cs1call-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/fitlibraryforfitnesse-20100806/cs1call-output/call-edges.txt
+cg finishes, elapsed time: 0.61s
+Tai-e finishes, elapsed time: 13.68s

@@ -1,0 +1,4 @@
+<java.lang.Object: void <clinit>()>
+<java.lang.String: void <clinit>()>
+<java.lang.System: void <clinit>()>
+<org.apache.james.James: void main(java.lang.String[])>

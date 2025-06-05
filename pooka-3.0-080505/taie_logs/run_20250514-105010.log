@@ -1,0 +1,58 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/pooka-3.0-080505/taie-output
+Writing options to /home/byx/testSpace/javaprjs/pooka-3.0-080505/taie-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/pooka-3.0-080505/taie-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/pooka-3.0-080505/taie-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/pooka-3.0-080505/bin ... 1626 classes
+7924 classes with 72359 methods in the world
+WorldBuilder finishes, elapsed time: 7.10s
+pta starts ...
+[Pointer analysis] elapsed time: 0.36s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                6658 (insens) / 1,6244 (sens)
+#objects:                     729 (insens) / 729 (sens)
+#var points-to:               9854 (insens) / 2,5326 (sens)
+#static field points-to:      60 (sens)
+#instance field points-to:    1584 (sens)
+#array points-to:             85 (sens)
+#reachable methods:           1129 (insens) / 4685 (sens)
+#call graph edges:            4608 (insens) / 9851 (sens)
+----------------------------------------
+pta finishes, elapsed time: 0.74s
+cg starts ...
+Call graph has 1129 reachable methods and 4608 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/pooka-3.0-080505/taie-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/pooka-3.0-080505/taie-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/pooka-3.0-080505/taie-output/call-edges.txt
+cg finishes, elapsed time: 0.15s
+Tai-e finishes, elapsed time: 8.17s
+[Task Info]
+Task Name: taie
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: taie-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/pooka-3.0-080505
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/pooka-3.0-080505/taie_logs/run_20250514-105010.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/pooka-3.0-080505/taie-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-05-14 10:50:10
+Duration: 8.63s
+Peak Memory: 1083.06 MB
+Exit Code: 0

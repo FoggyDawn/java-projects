@@ -1,0 +1,14 @@
+!1 This Release:
+|!2 ''Details of changes in this release''|5 August 2010|
+
+ * Changed ''!-FolderRunner-!'' so it is now included as a part of the normal ''!-FitLibrary-!'' release, rather than needing a specialised one.
+  * Included some ''!-FolderRunner-!'' tests that are also checked through ''!-FitNesse-!''.
+ * Fixed an obscure bug in ''defined action'' parameters
+ * Added some advanced tutorials: .FitLibrary.AdvancedTutorials
+
+----!1 Earlier Releases:
+ * !2 >June2010Release
+ * !2 >May2010Release
+ * !2 ^October2009Release
+ * !2 ^July2009Release
+ * !2 >November2008Release

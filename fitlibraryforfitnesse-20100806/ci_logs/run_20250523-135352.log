@@ -1,0 +1,58 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/fitlibraryforfitnesse-20100806/ci-output
+Writing options to /home/byx/testSpace/javaprjs/fitlibraryforfitnesse-20100806/ci-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/fitlibraryforfitnesse-20100806/ci-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/fitlibraryforfitnesse-20100806/ci-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/fitlibraryforfitnesse-20100806/bin ... 1517 classes
+7919 classes with 67051 methods in the world
+WorldBuilder finishes, elapsed time: 6.05s
+pta starts ...
+[Pointer analysis] elapsed time: 4.23s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                4,6683 (insens) / 4,6683 (sens)
+#objects:                     5017 (insens) / 5017 (sens)
+#var points-to:               146,6534 (insens) / 146,6534 (sens)
+#static field points-to:      4049 (sens)
+#instance field points-to:    28,3655 (sens)
+#array points-to:             1,8355 (sens)
+#reachable methods:           7286 (insens) / 7286 (sens)
+#call graph edges:            3,9806 (insens) / 3,9806 (sens)
+----------------------------------------
+pta finishes, elapsed time: 4.70s
+cg starts ...
+Call graph has 7286 reachable methods and 39806 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/fitlibraryforfitnesse-20100806/ci-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/fitlibraryforfitnesse-20100806/ci-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/fitlibraryforfitnesse-20100806/ci-output/call-edges.txt
+cg finishes, elapsed time: 0.69s
+Tai-e finishes, elapsed time: 11.61s
+[Task Info]
+Task Name: ci
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: ci-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/fitlibraryforfitnesse-20100806
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/fitlibraryforfitnesse-20100806/ci_logs/run_20250523-135352.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/fitlibraryforfitnesse-20100806/ci-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-05-23 13:53:52
+Duration: 12.14s
+Peak Memory: 1142.48 MB
+Exit Code: 0

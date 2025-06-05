@@ -1,0 +1,29 @@
+!**< def
+!define test (
+!|fitlibrary.specify.MapFixture|
+
+|map|
+|key|value|
+|c|d|
+|a|b|
+)
+**!
+!2 The Map defines a set of elements (key and value).
+|!-fitlibrary.spec.SpecifyFixture-!|
+|${test}|!-<br><table border="1" cellspacing="0">
+<tr><td>fitlibrary.specify.MapFixture</td>
+</tr>
+</table>
+<br><table border="1" cellspacing="0">
+<tr><td colspan="2">map</td>
+</tr>
+<tr><td>key</td>
+<td>value</td>
+</tr>
+<tr><td class="pass">c</td>
+<td class="pass">d</td>
+</tr>
+<tr><td class="pass">a</td>
+<td class="pass">b</td>
+</tr>
+</table>-!|

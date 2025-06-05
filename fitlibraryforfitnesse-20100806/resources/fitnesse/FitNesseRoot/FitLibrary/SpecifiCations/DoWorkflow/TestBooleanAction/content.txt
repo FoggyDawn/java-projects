@@ -1,0 +1,37 @@
+!*< defs
+!define test (!|fitlibrary.specify.DoFixtureFlowUnderTest|
+
+|a right action|1|
+
+|a right Boolean action|1|
+
+|a wrong action|2|
+
+|an exception action|
+)
+*!
+!2 Boolean actions have to return true to be right:
+|!-fitlibrary.spec.SpecifyFixture-!|
+|${test}|!-<table border="1" cellspacing="0">
+<tr><td>fitlibrary.specify.DoFixtureFlowUnderTest</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0">
+<tr><td class="pass">a right action</td>
+<td>1</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0">
+<tr><td class="pass">a right Boolean action</td>
+<td>1</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0">
+<tr><td class="error">a wrong action<hr/> <span class="fit_label">Missing class or Missing method</span></td>
+<td>2</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0">
+<tr><td class="error">an exception action<hr><pre><div class="fit_stacktrace"></div></pre></td>
+</tr>
+</table>-!|

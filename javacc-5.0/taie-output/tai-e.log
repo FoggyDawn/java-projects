@@ -1,0 +1,35 @@
+Writing log to /home/byx/testSpace/javaprjs/javacc-5.0/taie-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/javacc-5.0/taie-output/tai-e-plan.yml
+WorldBuilder starts ...
+6857 classes with 66428 methods in the world
+WorldBuilder finishes, elapsed time: 4.65s
+pta starts ...
+[Pointer analysis] elapsed time: 9.57s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                7,1712 (insens) / 28,7473 (sens)
+#objects:                     7196 (insens) / 7201 (sens)
+#var points-to:               376,8171 (insens) / 2141,4191 (sens)
+#static field points-to:      9064 (sens)
+#instance field points-to:    57,1123 (sens)
+#array points-to:             13,4513 (sens)
+#reachable methods:           9293 (insens) / 5,6916 (sens)
+#call graph edges:            5,6234 (insens) / 39,1437 (sens)
+----------------------------------------
+pta finishes, elapsed time: 10.99s
+cg starts ...
+Call graph has 9293 reachable methods and 56234 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/javacc-5.0/taie-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/javacc-5.0/taie-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/javacc-5.0/taie-output/call-edges.txt
+cg finishes, elapsed time: 0.88s
+Tai-e finishes, elapsed time: 16.69s

@@ -1,0 +1,79 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/jmoney-0.4.4/cs1call-output
+Writing options to /home/byx/testSpace/javaprjs/jmoney-0.4.4/cs1call-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/jmoney-0.4.4/cs1call-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/jmoney-0.4.4/cs1call-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/jmoney-0.4.4/bin ... 193 classes
+3919 classes with 37894 methods in the world
+WorldBuilder finishes, elapsed time: 2.38s
+pta starts ...
+[Pointer analysis] elapsed time: 10.44s
+Imprecise reflective calls:
+[Class.forName]<java.security.Policy: java.security.Policy getPolicyNoCheck()>[8@L-1] $r3 = invokestatic java.lang.Class.forName(r19), #targets: 60
+[Class.forName]<java.security.Policy$2: java.lang.Object run()>[9@L-1] $r2 = invokestatic java.lang.Class.forName($r1, %intconst0, r5), #targets: 60
+[Class.forName]<sun.security.provider.PolicyFile: void addPermissions(java.security.Permissions,java.security.CodeSource,java.security.Principal[],sun.security.provider.PolicyFile$PolicyEntry)>[79@L-1] $r28 = invokestatic java.lang.Class.forName($r25, %intconst5, $r27), #targets: 60
+[Class.forName]<java.awt.GraphicsEnvironment: java.awt.GraphicsEnvironment getLocalGraphicsEnvironment()>[7@L-1] $r5 = invokestatic java.lang.Class.forName(r4), #targets: 59
+[Class.forName]<java.awt.Toolkit: void loadAssistiveTechnologies()>[19@L-1] r34 = invokestatic java.lang.Class.forName($r7), #targets: 59
+[Class.forName]<java.awt.Toolkit$2: java.lang.Object run()>[6@L-1] r27 = invokestatic java.lang.Class.forName($r0), #targets: 59
+[Class.forName]<java.awt.datatransfer.DataFlavor: java.lang.Class tryToLoadClass(java.lang.String,java.lang.ClassLoader)>[5@L-1] $r4 = invokestatic java.lang.Class.forName(r3, %intconst0, r2), #targets: 59
+[Class.forName]<java.awt.datatransfer.DataFlavor: java.lang.Class tryToLoadClass(java.lang.String,java.lang.ClassLoader)>[9@L-1] $r8 = invokestatic java.lang.Class.forName(r3, %intconst0, r6), #targets: 59
+[Class.forName]<java.beans.ObjectHandler: java.lang.Class classForName(java.lang.String)>[6@L-1] $r4 = invokestatic java.lang.Class.forName(r0, %intconst0, $r3), #targets: 59
+[Class.forName]<java.lang.SystemClassLoaderAction: java.lang.Object run()>[20@L-1] $r7 = invokestatic java.lang.Class.forName($r5, %intconst0, $r6), #targets: 59
+[Class.forName]<java.security.Provider: java.security.Provider loadProvider(java.lang.String)>[4@L-1] r23 = invokestatic java.lang.Class.forName(r1), #targets: 59
+[Class.forName]<java.security.Security: java.lang.Object[] doGetImpl(java.lang.String,java.lang.String,java.security.Security$ProviderProperty,java.lang.Object)>[40@L-1] r116 = invokestatic java.lang.Class.forName(r1), #targets: 59
+[Class.forName]<java.util.ResourceBundle: java.lang.Object loadBundle(java.lang.ClassLoader,java.lang.String,java.util.Locale)>[6@L-1] r16 = invokestatic java.lang.Class.forName($r1), #targets: 59
+[Class.forName]<java.util.prefs.Preferences: void <clinit>()>[12@L-1] $r4 = invokestatic java.lang.Class.forName(r2, %intconst1, $r3), #targets: 59
+[Class.forName]<java.util.prefs.Preferences: void <clinit>()>[25@L-1] $r19 = invokestatic java.lang.Class.forName(r2, %intconst1, $r18), #targets: 59
+[Class.forName]<javax.swing.SwingUtilities: java.lang.Class loadSystemClass(java.lang.String)>[3@L-1] $r3 = invokestatic java.lang.Class.forName(r0, %intconst0, $r2), #targets: 59
+[Class.forName]<javax.xml.parsers.FactoryFinder: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader)>[1@L-1] r18 = invokestatic java.lang.Class.forName(r1), #targets: 59
+[Class.forName]<sun.misc.Service$LazyIterator: java.lang.Object next()>[10@L-1] $r3 = invokestatic java.lang.Class.forName(r1, %intconst1, $r2), #targets: 59
+[Class.forName]<sun.security.provider.PolicyFile: java.security.Permission getInstance(java.lang.String,java.lang.String,java.lang.String)>[0@L-1] $r1 = invokestatic java.lang.Class.forName(r0), #targets: 59
+[Class.forName]<sun.security.x509.X509Key: java.security.PublicKey buildX509Key(sun.security.x509.AlgorithmId,sun.security.util.BitArray)>[38@L-1] r32 = invokestatic java.lang.Class.forName($r28), #targets: 59
+-------------- Pointer analysis statistics: --------------
+#var pointers:                6,4907 (insens) / 26,4624 (sens)
+#objects:                     6864 (insens) / 6976 (sens)
+#var points-to:               433,1005 (insens) / 2899,1209 (sens)
+#static field points-to:      6106 (sens)
+#instance field points-to:    69,7364 (sens)
+#array points-to:             6,2423 (sens)
+#reachable methods:           9953 (insens) / 5,1126 (sens)
+#call graph edges:            5,0742 (insens) / 25,2619 (sens)
+----------------------------------------
+pta finishes, elapsed time: 11.91s
+cg starts ...
+Call graph has 9953 reachable methods and 50742 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/jmoney-0.4.4/cs1call-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/jmoney-0.4.4/cs1call-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/jmoney-0.4.4/cs1call-output/call-edges.txt
+cg finishes, elapsed time: 0.86s
+Tai-e finishes, elapsed time: 15.31s
+[Task Info]
+Task Name: cs1call
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: cs1call-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/jmoney-0.4.4
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/jmoney-0.4.4/cs1call_logs/run_20250523-193733.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/jmoney-0.4.4/cs1call-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-05-23 19:37:33
+Duration: 15.76s
+Peak Memory: 1924.83 MB
+Exit Code: 0

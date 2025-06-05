@@ -1,0 +1,64 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/jgroups-2.10.0/cs1call-output
+Writing options to /home/byx/testSpace/javaprjs/jgroups-2.10.0/cs1call-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/jgroups-2.10.0/cs1call-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/jgroups-2.10.0/cs1call-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/jgroups-2.10.0/bin ... 1211 classes
+8650 classes with 80386 methods in the world
+WorldBuilder finishes, elapsed time: 9.83s
+pta starts ...
+[Pointer analysis] elapsed time: 21.25s
+Imprecise reflective calls:
+[Array.newInstance]<com.sun.beans.TypeResolver: java.lang.reflect.Type resolve(java.lang.reflect.Type,java.lang.reflect.Type)>[12@L164] $r31 = invokestatic java.lang.reflect.Array.newInstance($r30, %intconst0), #targets: 67
+[Array.newInstance]<com.sun.beans.TypeResolver: java.lang.Class erase(java.lang.reflect.Type)>[38@L256] $r9 = invokestatic java.lang.reflect.Array.newInstance($r8, %intconst0), #targets: 67
+[Array.newInstance]<com.sun.beans.TypeResolver: java.lang.reflect.Type fixGenericArray(java.lang.reflect.Type)>[9@L347] $r5 = invokestatic java.lang.reflect.Array.newInstance($r4, %intconst0), #targets: 67
+[Array.newInstance]<java.lang.Class: java.lang.Class toClass(java.lang.reflect.Type)>[6@L1126] $r5 = invokestatic java.lang.reflect.Array.newInstance($r4, %intconst0), #targets: 67
+[Array.newInstance]<sun.reflect.annotation.AnnotationParser: java.lang.Class toClass(java.lang.reflect.Type)>[6@L445] $r5 = invokestatic java.lang.reflect.Array.newInstance($r4, %intconst0), #targets: 67
+-------------- Pointer analysis statistics: --------------
+#var pointers:                9,9577 (insens) / 37,4997 (sens)
+#objects:                     1,1956 (insens) / 1,3419 (sens)
+#var points-to:               798,9935 (insens) / 5008,4296 (sens)
+#static field points-to:      5628 (sens)
+#instance field points-to:    137,0636 (sens)
+#array points-to:             26,7935 (sens)
+#reachable methods:           1,4812 (insens) / 7,6639 (sens)
+#call graph edges:            7,5370 (insens) / 48,8188 (sens)
+----------------------------------------
+pta finishes, elapsed time: 23.91s
+cg starts ...
+Call graph has 14812 reachable methods and 75370 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/jgroups-2.10.0/cs1call-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/jgroups-2.10.0/cs1call-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/jgroups-2.10.0/cs1call-output/call-edges.txt
+cg finishes, elapsed time: 1.29s
+Tai-e finishes, elapsed time: 35.19s
+[Task Info]
+Task Name: cs1call
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: cs1call-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/jgroups-2.10.0
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/jgroups-2.10.0/cs1call_logs/run_20250523-161101.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/jgroups-2.10.0/cs1call-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-05-23 16:11:01
+Duration: 35.73s
+Peak Memory: 2916.18 MB
+Exit Code: 0

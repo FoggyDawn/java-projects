@@ -1,0 +1,8 @@
+^BareEnum
+^BareEnumWithUnderscore
+^BareEnumFailing
+^BareEnumUnknown
+^EnumAndNull
+^EnumWithParse
+^ArrayOfEnum
+^ListOfEnum

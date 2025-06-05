@@ -1,0 +1,35 @@
+Writing log to /home/byx/testSpace/javaprjs/quartz-1.8.3/ci_app-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/quartz-1.8.3/ci_app-output/tai-e-plan.yml
+WorldBuilder starts ...
+6691 classes with 63891 methods in the world
+WorldBuilder finishes, elapsed time: 4.87s
+pta starts ...
+[Pointer analysis] elapsed time: 0.19s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                2939 (insens) / 5638 (sens)
+#objects:                     288 (insens) / 288 (sens)
+#var points-to:               2747 (insens) / 4719 (sens)
+#static field points-to:      87 (sens)
+#instance field points-to:    301 (sens)
+#array points-to:             30 (sens)
+#reachable methods:           660 (insens) / 1819 (sens)
+#call graph edges:            1779 (insens) / 3142 (sens)
+----------------------------------------
+pta finishes, elapsed time: 0.45s
+cg starts ...
+Call graph has 660 reachable methods and 1779 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/quartz-1.8.3/ci_app-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/quartz-1.8.3/ci_app-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/quartz-1.8.3/ci_app-output/call-edges.txt
+cg finishes, elapsed time: 0.10s
+Tai-e finishes, elapsed time: 5.59s

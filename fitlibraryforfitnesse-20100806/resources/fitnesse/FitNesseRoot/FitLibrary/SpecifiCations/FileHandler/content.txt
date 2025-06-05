@@ -1,0 +1,8 @@
+!|fitlibrary.DoFixture|
+
+|''file''|fileFixtureTest.txt|
+|''write''|some content|
+|''read file''|'''is'''|some content|
+|''delete''|
+|''exists''|'''is'''|false|
+

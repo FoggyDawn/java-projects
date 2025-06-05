@@ -1,0 +1,15 @@
+!|fitlibrary.DoFixture|
+
+|''set variables''|
+|prop.a|A|
+|prop.b|B|
+
+|''get''|@{prop.a}|'''is'''|@{prop.a}|
+
+|''get''|A|'''is'''|@{prop.a}|
+
+|''get''|@{prop.a}|'''is'''|A|
+
+|''get''|--@{prop.a}++@{prop.b}|'''is'''|--A++B|
+
+|''get''|@{prop.b}+@{prop.a}|'''is'''|B+A|

@@ -1,0 +1,70 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/jfreechart-1.0.13/ci-output
+Writing options to /home/byx/testSpace/javaprjs/jfreechart-1.0.13/ci-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/jfreechart-1.0.13/ci-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/jfreechart-1.0.13/ci-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/jfreechart-1.0.13/bin ... 649 classes
+3011 classes with 24250 methods in the world
+WorldBuilder finishes, elapsed time: 2.64s
+pta starts ...
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because "superclass" is null
+	at pascal.taie.language.classes.ClassHierarchyImpl.isSubclass(ClassHierarchyImpl.java:397)
+	at pascal.taie.analysis.pta.plugin.reflection.AnnotationModel.onUnresolvedCall(AnnotationModel.java:79)
+	at pascal.taie.analysis.pta.plugin.CompositePlugin.lambda$onUnresolvedCall$6(CompositePlugin.java:147)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at pascal.taie.analysis.pta.plugin.CompositePlugin.onUnresolvedCall(CompositePlugin.java:147)
+	at pascal.taie.analysis.pta.plugin.CompositePlugin.lambda$onUnresolvedCall$6(CompositePlugin.java:147)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at pascal.taie.analysis.pta.plugin.CompositePlugin.onUnresolvedCall(CompositePlugin.java:147)
+	at pascal.taie.analysis.pta.core.solver.DefaultSolver.lambda$processCall$9(DefaultSolver.java:490)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at pascal.taie.analysis.pta.core.solver.DefaultSolver.processCall(DefaultSolver.java:471)
+	at pascal.taie.analysis.pta.core.solver.DefaultSolver.analyze(DefaultSolver.java:321)
+	at pascal.taie.analysis.pta.core.solver.DefaultSolver.solve(DefaultSolver.java:248)
+	at pascal.taie.analysis.pta.PointerAnalysis.runAnalysis(PointerAnalysis.java:119)
+	at pascal.taie.analysis.pta.PointerAnalysis.analyze(PointerAnalysis.java:107)
+	at pascal.taie.analysis.pta.PointerAnalysis.analyze(PointerAnalysis.java:64)
+	at pascal.taie.analysis.AnalysisManager.runProgramAnalysis(AnalysisManager.java:148)
+	at pascal.taie.analysis.AnalysisManager.runAnalysis(AnalysisManager.java:135)
+	at pascal.taie.analysis.AnalysisManager.lambda$execute$0(AnalysisManager.java:104)
+	at pascal.taie.util.Timer.runAndCount(Timer.java:93)
+	at pascal.taie.analysis.AnalysisManager.lambda$execute$1(AnalysisManager.java:103)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at pascal.taie.analysis.AnalysisManager.execute(AnalysisManager.java:102)
+	at pascal.taie.Main.executePlan(Main.java:154)
+	at pascal.taie.Main.lambda$main$0(Main.java:62)
+	at pascal.taie.util.Timer.lambda$runAndCount$0(Timer.java:112)
+	at pascal.taie.util.Timer.runAndCount(Timer.java:93)
+	at pascal.taie.util.Timer.runAndCount(Timer.java:111)
+	at pascal.taie.util.Timer.runAndCount(Timer.java:107)
+	at pascal.taie.Main.main(Main.java:52)
+[Task Info]
+Task Name: ci
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: ci-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/jfreechart-1.0.13
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/jfreechart-1.0.13/ci_logs/run_20250522-161034.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/jfreechart-1.0.13/ci-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-05-22 16:10:34
+Duration: 3.71s
+Peak Memory: 625.37 MB
+Exit Code: 1

@@ -1,0 +1,38 @@
+Writing log to /home/byx/testSpace/javaprjs/jgrapht-0.8.1/ci-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/jgrapht-0.8.1/ci-output/tai-e-plan.yml
+WorldBuilder starts ...
+5959 classes with 55703 methods in the world
+WorldBuilder finishes, elapsed time: 3.95s
+pta starts ...
+[Pointer analysis] elapsed time: 8.60s
+Imprecise reflective calls:
+[Class.newInstance]<java.security.Provider$Service: java.lang.Object newInstance(java.lang.Object)>[47@L1221] $r24 = invokevirtual $r23.newInstance(), #targets: 60
+[Class.newInstance]<java.security.Provider$Service: java.lang.Object newInstanceGeneric(java.lang.Object)>[2@L1283] $r19 = invokevirtual $r1.newInstance(), #targets: 60
+-------------- Pointer analysis statistics: --------------
+#var pointers:                9,2927 (insens) / 9,2927 (sens)
+#objects:                     9727 (insens) / 9727 (sens)
+#var points-to:               723,1126 (insens) / 723,1126 (sens)
+#static field points-to:      1,9157 (sens)
+#instance field points-to:    107,0701 (sens)
+#array points-to:             17,4567 (sens)
+#reachable methods:           1,4649 (insens) / 1,4649 (sens)
+#call graph edges:            7,9886 (insens) / 7,9886 (sens)
+----------------------------------------
+pta finishes, elapsed time: 9.35s
+cg starts ...
+Call graph has 14649 reachable methods and 79886 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/jgrapht-0.8.1/ci-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/jgrapht-0.8.1/ci-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/jgrapht-0.8.1/ci-output/call-edges.txt
+cg finishes, elapsed time: 1.16s
+Tai-e finishes, elapsed time: 14.62s

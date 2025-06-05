@@ -1,0 +1,35 @@
+Writing log to /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/cs1call-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/cs1call-output/tai-e-plan.yml
+WorldBuilder starts ...
+4271 classes with 43130 methods in the world
+WorldBuilder finishes, elapsed time: 7.27s
+pta starts ...
+[Pointer analysis] elapsed time: 2.27s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                2,1546 (insens) / 7,1347 (sens)
+#objects:                     2236 (insens) / 2304 (sens)
+#var points-to:               24,4736 (insens) / 116,0616 (sens)
+#static field points-to:      1096 (sens)
+#instance field points-to:    2,0761 (sens)
+#array points-to:             4764 (sens)
+#reachable methods:           2817 (insens) / 1,3926 (sens)
+#call graph edges:            1,3789 (insens) / 5,4288 (sens)
+----------------------------------------
+pta finishes, elapsed time: 2.57s
+cg starts ...
+Call graph has 2817 reachable methods and 13789 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/cs1call-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/cs1call-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/cs1call-output/call-edges.txt
+cg finishes, elapsed time: 0.34s
+Tai-e finishes, elapsed time: 10.34s

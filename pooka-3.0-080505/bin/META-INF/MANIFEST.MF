@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.0
+Created-By: 10.0-b22 (Sun Microsystems Inc.)
+Main-Class: net.suberic.pooka.Pooka
+Class-Path: lib/bcmail.jar lib/bcprov.jar lib/bcpg.jar lib/javamail-cr
+ ypto-bouncycastle-smime.jar lib/javamail-crypto-bouncycastle-openpgp.
+ jar
+

@@ -1,0 +1,35 @@
+Writing log to /home/byx/testSpace/javaprjs/jedit-4.3.2/cs1call-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/jedit-4.3.2/cs1call-output/tai-e-plan.yml
+WorldBuilder starts ...
+6921 classes with 62987 methods in the world
+WorldBuilder finishes, elapsed time: 6.80s
+pta starts ...
+[Pointer analysis] elapsed time: 34.55s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                14,0015 (insens) / 67,0202 (sens)
+#objects:                     1,4843 (insens) / 1,5260 (sens)
+#var points-to:               1535,1121 (insens) / 1,1114,3424 (sens)
+#static field points-to:      3,1661 (sens)
+#instance field points-to:    372,4805 (sens)
+#array points-to:             22,6789 (sens)
+#reachable methods:           2,1517 (insens) / 12,4113 (sens)
+#call graph edges:            12,2861 (insens) / 89,4167 (sens)
+----------------------------------------
+pta finishes, elapsed time: 39.64s
+cg starts ...
+Call graph has 21517 reachable methods and 122861 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/jedit-4.3.2/cs1call-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/jedit-4.3.2/cs1call-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/jedit-4.3.2/cs1call-output/call-edges.txt
+cg finishes, elapsed time: 1.68s
+Tai-e finishes, elapsed time: 48.29s

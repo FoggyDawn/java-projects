@@ -1,0 +1,35 @@
+Writing log to /home/byx/testSpace/javaprjs/freecs-1.3.20100406/cs1call-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/freecs-1.3.20100406/cs1call-output/tai-e-plan.yml
+WorldBuilder starts ...
+6934 classes with 66965 methods in the world
+WorldBuilder finishes, elapsed time: 4.06s
+pta starts ...
+[Pointer analysis] elapsed time: 10.32s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                7,0137 (insens) / 26,8481 (sens)
+#objects:                     7073 (insens) / 7079 (sens)
+#var points-to:               398,2692 (insens) / 2307,0401 (sens)
+#static field points-to:      3201 (sens)
+#instance field points-to:    68,6587 (sens)
+#array points-to:             15,9091 (sens)
+#reachable methods:           9560 (insens) / 5,4534 (sens)
+#call graph edges:            5,3744 (insens) / 36,7911 (sens)
+----------------------------------------
+pta finishes, elapsed time: 11.71s
+cg starts ...
+Call graph has 9560 reachable methods and 53744 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/freecs-1.3.20100406/cs1call-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/freecs-1.3.20100406/cs1call-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/freecs-1.3.20100406/cs1call-output/call-edges.txt
+cg finishes, elapsed time: 0.89s
+Tai-e finishes, elapsed time: 16.83s

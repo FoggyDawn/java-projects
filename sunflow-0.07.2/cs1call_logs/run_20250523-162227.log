@@ -1,0 +1,58 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/sunflow-0.07.2/cs1call-output
+Writing options to /home/byx/testSpace/javaprjs/sunflow-0.07.2/cs1call-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/sunflow-0.07.2/cs1call-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/sunflow-0.07.2/cs1call-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/sunflow-0.07.2/bin ... 255 classes
+6971 classes with 66163 methods in the world
+WorldBuilder finishes, elapsed time: 4.38s
+pta starts ...
+[Pointer analysis] elapsed time: 24.95s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                12,1974 (insens) / 45,7660 (sens)
+#objects:                     1,3914 (insens) / 1,4129 (sens)
+#var points-to:               989,4162 (insens) / 6186,6745 (sens)
+#static field points-to:      1,1467 (sens)
+#instance field points-to:    188,5682 (sens)
+#array points-to:             40,5460 (sens)
+#reachable methods:           1,8051 (insens) / 9,3462 (sens)
+#call graph edges:            9,1992 (insens) / 54,4020 (sens)
+----------------------------------------
+pta finishes, elapsed time: 28.08s
+cg starts ...
+Call graph has 18051 reachable methods and 91992 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/sunflow-0.07.2/cs1call-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/sunflow-0.07.2/cs1call-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/sunflow-0.07.2/cs1call-output/call-edges.txt
+cg finishes, elapsed time: 1.34s
+Tai-e finishes, elapsed time: 33.97s
+[Task Info]
+Task Name: cs1call
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: cs1call-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/sunflow-0.07.2
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/sunflow-0.07.2/cs1call_logs/run_20250523-162227.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/sunflow-0.07.2/cs1call-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-05-23 16:22:27
+Duration: 34.51s
+Peak Memory: 2829.10 MB
+Exit Code: 0

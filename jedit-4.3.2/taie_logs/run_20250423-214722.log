@@ -1,0 +1,60 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/jedit-4.3.2/taie-output
+Writing options to /home/byx/testSpace/javaprjs/jedit-4.3.2/taie-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/jedit-4.3.2/taie-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/jedit-4.3.2/taie-output/tai-e-plan.yml
+WorldBuilder starts ...
+The world cache mode is enabled.
+Loading the world cache from /home/byx/projects/Tai-e/cache/world-cache-1939856874.bin
+[Load the world cache] elapsed time: 1.69s
+6921 classes with 62987 methods in the world
+WorldBuilder finishes, elapsed time: 1.70s
+pta starts ...
+[Pointer analysis] elapsed time: 29.19s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                14,0168 (insens) / 67,1432 (sens)
+#objects:                     1,4879 (insens) / 1,5296 (sens)
+#var points-to:               1555,4130 (insens) / 1,1289,1643 (sens)
+#static field points-to:      3,2416 (sens)
+#instance field points-to:    375,8621 (sens)
+#array points-to:             22,8669 (sens)
+#reachable methods:           2,1560 (insens) / 12,4391 (sens)
+#call graph edges:            12,3119 (insens) / 89,7456 (sens)
+----------------------------------------
+pta finishes, elapsed time: 33.78s
+cg starts ...
+Call graph has 21560 reachable methods and 123119 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/jedit-4.3.2/taie-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/jedit-4.3.2/taie-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/jedit-4.3.2/taie-output/call-edges.txt
+cg finishes, elapsed time: 1.73s
+Tai-e finishes, elapsed time: 37.37s
+[Task Info]
+Task Name: taie
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: taie-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/jedit-4.3.2
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/jedit-4.3.2/taie_logs/run_20250423-214722.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/jedit-4.3.2/taie-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-04-23 21:47:22
+Duration: 37.86s
+Peak Memory: 2632.03 MB
+Exit Code: 0

@@ -1,0 +1,47 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/proguard-4.5.1/cha-output
+Writing options to /home/byx/testSpace/javaprjs/proguard-4.5.1/cha-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/proguard-4.5.1/cha-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/proguard-4.5.1/cha-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/proguard-4.5.1/bin ... 645 classes
+4398 classes with 42761 methods in the world
+WorldBuilder finishes, elapsed time: 5.26s
+cg starts ...
+Building call graph by CHA
+Ignore methods of java.lang.Object
+Call graph has 20850 reachable methods and 201262 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/proguard-4.5.1/cha-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/proguard-4.5.1/cha-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/proguard-4.5.1/cha-output/call-edges.txt
+cg finishes, elapsed time: 9.55s
+Tai-e finishes, elapsed time: 14.96s
+[Task Info]
+Task Name: cha
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: cha-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/proguard-4.5.1
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/proguard-4.5.1/cha_logs/run_20250523-182159.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/proguard-4.5.1/cha-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-05-23 18:21:59
+Duration: 15.45s
+Peak Memory: 1371.62 MB
+Exit Code: 0

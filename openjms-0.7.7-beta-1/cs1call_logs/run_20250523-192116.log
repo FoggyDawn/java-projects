@@ -1,0 +1,63 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/cs1call-output
+Writing options to /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/cs1call-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/cs1call-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/cs1call-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/bin ... 808 classes
+4271 classes with 43130 methods in the world
+WorldBuilder finishes, elapsed time: 7.22s
+pta starts ...
+Exception in thread "main" pascal.taie.config.ConfigException: Unexpected context-sensitivity variants: cs1call
+	at pascal.taie.analysis.pta.core.cs.selector.ContextSelectorFactory.makePlainSelector(ContextSelectorFactory.java:76)
+	at pascal.taie.analysis.pta.PointerAnalysis.analyze(PointerAnalysis.java:105)
+	at pascal.taie.analysis.pta.PointerAnalysis.analyze(PointerAnalysis.java:64)
+	at pascal.taie.analysis.AnalysisManager.runProgramAnalysis(AnalysisManager.java:148)
+	at pascal.taie.analysis.AnalysisManager.runAnalysis(AnalysisManager.java:135)
+	at pascal.taie.analysis.AnalysisManager.lambda$execute$0(AnalysisManager.java:104)
+	at pascal.taie.util.Timer.runAndCount(Timer.java:93)
+	at pascal.taie.analysis.AnalysisManager.lambda$execute$1(AnalysisManager.java:103)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at pascal.taie.analysis.AnalysisManager.execute(AnalysisManager.java:102)
+	at pascal.taie.Main.executePlan(Main.java:154)
+	at pascal.taie.Main.lambda$main$0(Main.java:62)
+	at pascal.taie.util.Timer.lambda$runAndCount$0(Timer.java:112)
+	at pascal.taie.util.Timer.runAndCount(Timer.java:93)
+	at pascal.taie.util.Timer.runAndCount(Timer.java:111)
+	at pascal.taie.util.Timer.runAndCount(Timer.java:107)
+	at pascal.taie.Main.main(Main.java:52)
+Caused by: java.lang.NumberFormatException: For input string: "cs1call"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at pascal.taie.analysis.pta.core.cs.selector.ContextSelectorFactory.makePlainSelector(ContextSelectorFactory.java:61)
+	... 16 more
+[Task Info]
+Task Name: cs1call
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: cs1call-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/cs1call_logs/run_20250523-192116.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/cs1call-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-05-23 19:21:16
+Duration: 7.92s
+Peak Memory: 1044.93 MB
+Exit Code: 1

@@ -1,0 +1,66 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/freecol-0.10.7/cha-output
+Writing options to /home/byx/testSpace/javaprjs/freecol-0.10.7/cha-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/freecol-0.10.7/cha-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/freecol-0.10.7/cha-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/freecol-0.10.7/bin ... 1310 classes
+6706 classes with 61808 methods in the world
+WorldBuilder finishes, elapsed time: 7.80s
+cg starts ...
+Building call graph by CHA
+Ignore methods of java.lang.Object
+Exception in thread "main" pascal.taie.ir.proginfo.MethodResolutionFailedException: Cannot resolve <com.jcraft.jorbis.Block: void <init>(com.jcraft.jorbis.DspState)>
+	at pascal.taie.ir.proginfo.MethodRef.resolve(MethodRef.java:184)
+	at pascal.taie.analysis.graph.callgraph.CHABuilder.resolveCalleesOf(CHABuilder.java:167)
+	at pascal.taie.analysis.graph.callgraph.CHABuilder.lambda$buildCallGraph$1(CHABuilder.java:129)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at pascal.taie.analysis.graph.callgraph.CHABuilder.buildCallGraph(CHABuilder.java:128)
+	at pascal.taie.analysis.graph.callgraph.CHABuilder.build(CHABuilder.java:102)
+	at pascal.taie.analysis.graph.callgraph.CallGraphBuilder.analyze(CallGraphBuilder.java:67)
+	at pascal.taie.analysis.graph.callgraph.CallGraphBuilder.analyze(CallGraphBuilder.java:37)
+	at pascal.taie.analysis.AnalysisManager.runProgramAnalysis(AnalysisManager.java:148)
+	at pascal.taie.analysis.AnalysisManager.runAnalysis(AnalysisManager.java:135)
+	at pascal.taie.analysis.AnalysisManager.lambda$execute$0(AnalysisManager.java:104)
+	at pascal.taie.util.Timer.runAndCount(Timer.java:93)
+	at pascal.taie.analysis.AnalysisManager.lambda$execute$1(AnalysisManager.java:103)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at pascal.taie.analysis.AnalysisManager.execute(AnalysisManager.java:102)
+	at pascal.taie.Main.executePlan(Main.java:154)
+	at pascal.taie.Main.lambda$main$0(Main.java:62)
+	at pascal.taie.util.Timer.lambda$runAndCount$0(Timer.java:112)
+	at pascal.taie.util.Timer.runAndCount(Timer.java:93)
+	at pascal.taie.util.Timer.runAndCount(Timer.java:111)
+	at pascal.taie.util.Timer.runAndCount(Timer.java:107)
+	at pascal.taie.Main.main(Main.java:52)
+[Task Info]
+Task Name: cha
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: cha-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/freecol-0.10.7
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/freecol-0.10.7/cha_logs/run_20250520-212122.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/freecol-0.10.7/cha-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-05-20 21:21:22
+Duration: 13.74s
+Peak Memory: 2498.25 MB
+Exit Code: 1

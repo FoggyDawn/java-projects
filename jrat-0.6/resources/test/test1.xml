@@ -1,0 +1,22 @@
+<jrat>
+
+    <handler>
+
+        <factory class="org.shiftone.jrat.provider.silent.SilentMethodHandler"/>
+
+    </handler>
+
+
+    <handler>
+
+		<!--
+        <include className="*" methodName="*" signature="*"/>
+        -->
+        <exclude className="*" methodName="get*" signature="*"/>
+        <exclude className="*" methodName="set*" signature="*"/>
+
+        <factory class="org.shiftone.jrat.provider.log.LogMethodHandlerFactory"/>         
+
+    </handler>
+
+</jrat>

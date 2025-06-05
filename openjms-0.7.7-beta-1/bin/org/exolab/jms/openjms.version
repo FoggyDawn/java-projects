@@ -1,0 +1,13 @@
+# OpenJMS version information
+#
+# These values are set during the build process
+# March 11 2007
+
+version.title=OpenJMS
+version.copyright=The OpenJMS Group. (C) 1999-2007. All rights reserved.
+version.vendorName=The OpenJMS Group
+version.vendorUrl=http://openjms.sourceforge.net
+version=0.7.7-beta-1
+version.major=0
+version.minor=770
+build.date=March 11 2007 2333

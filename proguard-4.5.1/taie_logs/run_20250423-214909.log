@@ -1,0 +1,60 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/proguard-4.5.1/taie-output
+Writing options to /home/byx/testSpace/javaprjs/proguard-4.5.1/taie-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/proguard-4.5.1/taie-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/proguard-4.5.1/taie-output/tai-e-plan.yml
+WorldBuilder starts ...
+The world cache mode is enabled.
+Loading the world cache from /home/byx/projects/Tai-e/cache/world-cache-654400944.bin
+[Load the world cache] elapsed time: 1.17s
+4398 classes with 42761 methods in the world
+WorldBuilder finishes, elapsed time: 1.18s
+pta starts ...
+[Pointer analysis] elapsed time: 2.51s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                5,5138 (insens) / 19,6471 (sens)
+#objects:                     6821 (insens) / 6826 (sens)
+#var points-to:               65,7545 (insens) / 410,4056 (sens)
+#static field points-to:      1181 (sens)
+#instance field points-to:    5,9878 (sens)
+#array points-to:             9819 (sens)
+#reachable methods:           8278 (insens) / 4,1688 (sens)
+#call graph edges:            4,1448 (insens) / 15,9177 (sens)
+----------------------------------------
+pta finishes, elapsed time: 3.26s
+cg starts ...
+Call graph has 8278 reachable methods and 41448 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/proguard-4.5.1/taie-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/proguard-4.5.1/taie-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/proguard-4.5.1/taie-output/call-edges.txt
+cg finishes, elapsed time: 0.71s
+Tai-e finishes, elapsed time: 5.36s
+[Task Info]
+Task Name: taie
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: taie-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/proguard-4.5.1
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/proguard-4.5.1/taie_logs/run_20250423-214909.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/proguard-4.5.1/taie-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-04-23 21:49:09
+Duration: 5.92s
+Peak Memory: 1303.13 MB
+Exit Code: 0

@@ -1,0 +1,56 @@
+Writing log to /home/byx/testSpace/javaprjs/sunflow-0.07.2/ci-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/sunflow-0.07.2/ci-output/tai-e-plan.yml
+WorldBuilder starts ...
+6971 classes with 66163 methods in the world
+WorldBuilder finishes, elapsed time: 4.11s
+pta starts ...
+[Pointer analysis] elapsed time: 17.53s
+Imprecise reflective calls:
+[Class.forName]<java.security.Policy: java.security.Policy getPolicyNoCheck()>[23@L184] $r9 = invokestatic java.lang.Class.forName(r28), #targets: 74
+[Class.forName]<java.security.Policy$2: java.security.Policy run()>[9@L213] $r2 = invokestatic java.lang.Class.forName($r1, %intconst0, r14), #targets: 74
+[Class.forName]<sun.security.provider.PolicyFile: void addPermissions(java.security.Permissions,java.security.CodeSource,java.security.Principal[],sun.security.provider.PolicyFile$PolicyEntry)>[107@L1357] $r26 = invokestatic java.lang.Class.forName($r25, %intconst2, $r24), #targets: 74
+[Class.forName]<java.awt.Toolkit: void loadAssistiveTechnologies()>[14@L803] r31 = invokestatic java.lang.Class.forName($r4), #targets: 73
+[Class.forName]<java.awt.datatransfer.DataFlavor: java.lang.Class tryToLoadClass(java.lang.String,java.lang.ClassLoader)>[7@L146] $r3 = invokestatic java.lang.Class.forName(r0, %intconst0, $r2), #targets: 73
+[Class.forName]<java.awt.datatransfer.DataFlavor: java.lang.Class tryToLoadClass(java.lang.String,java.lang.ClassLoader)>[13@L153] $r12 = invokestatic java.lang.Class.forName(r0, %intconst0, $r11), #targets: 73
+[Class.forName]<java.awt.datatransfer.DataFlavor: java.lang.Class tryToLoadClass(java.lang.String,java.lang.ClassLoader)>[18@L163] $r7 = invokestatic java.lang.Class.forName(r0, %intconst0, r6), #targets: 73
+[Class.forName]<java.security.Provider$Service: java.lang.Class getImplClass()>[13@L1634] r33 = invokestatic java.lang.Class.forName($r18), #targets: 73
+[Class.forName]<java.security.Provider$Service: java.lang.Class getKeyClass(java.lang.String)>[0@L1786] $r1 = invokestatic java.lang.Class.forName(r0), #targets: 73
+[Class.forName]<java.util.ResourceBundle$RBClassLoader: java.lang.Class loadClass(java.lang.String)>[5@L514] $r2 = invokestatic java.lang.Class.forName(r1), #targets: 73
+[Class.forName]<java.util.ServiceLoader$LazyIterator: java.lang.Object nextService()>[10@L370] r31 = invokestatic java.lang.Class.forName(r1, %intconst0, $r2), #targets: 73
+[Class.forName]<javax.crypto.CryptoPolicyParser: java.security.spec.AlgorithmParameterSpec getInstance(java.lang.String,java.lang.Integer[])>[0@L288] $r1 = invokestatic java.lang.Class.forName(r0), #targets: 73
+[Class.forName]<javax.swing.SwingUtilities: java.lang.Class loadSystemClass(java.lang.String)>[4@L1879] $r3 = invokestatic java.lang.Class.forName(r0, %intconst0, $r2), #targets: 73
+[Class.forName]<sun.awt.shell.ShellFolder: void <clinit>()>[6@L215] $r3 = invokestatic java.lang.Class.forName(r2, %intconst1, %nullconst), #targets: 73
+[Class.forName]<sun.security.jca.ProviderConfig$2: java.security.Provider run()>[19@L217] r55 = invokestatic java.lang.Class.forName($r4), #targets: 73
+[Class.forName]<sun.security.provider.PolicyFile: java.security.Permission getInstance(java.lang.String,java.lang.String,java.lang.String)>[1@L939] $r1 = invokestatic java.lang.Class.forName(r0, %intconst0, %nullconst), #targets: 73
+[Constructor.newInstance]<java.security.Provider$Service: java.lang.Object newInstance(java.lang.Object)>[50@L1595] $r26 = invokevirtual $r24.newInstance($r25), #targets: 60
+[Constructor.newInstance]<java.security.Provider$Service: java.lang.Object newInstanceGeneric(java.lang.Object)>[6@L1666] $r21 = invokevirtual $r19.newInstance($r20), #targets: 60
+[Class.newInstance]<java.awt.Toolkit: void loadAssistiveTechnologies()>[15@L805] invokevirtual r31.newInstance(), #targets: 59
+[Class.newInstance]<java.util.ServiceLoader$LazyIterator: java.lang.Object nextService()>[36@L380] $r5 = invokevirtual r31.newInstance(), #targets: 59
+-------------- Pointer analysis statistics: --------------
+#var pointers:                12,2662 (insens) / 12,2662 (sens)
+#objects:                     1,4060 (insens) / 1,4060 (sens)
+#var points-to:               1467,8170 (insens) / 1467,8170 (sens)
+#static field points-to:      1,5516 (sens)
+#instance field points-to:    381,2789 (sens)
+#array points-to:             80,5402 (sens)
+#reachable methods:           1,8182 (insens) / 1,8182 (sens)
+#call graph edges:            9,6418 (insens) / 9,6419 (sens)
+----------------------------------------
+pta finishes, elapsed time: 18.91s
+cg starts ...
+Call graph has 18182 reachable methods and 96418 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/sunflow-0.07.2/ci-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/sunflow-0.07.2/ci-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/sunflow-0.07.2/ci-output/call-edges.txt
+cg finishes, elapsed time: 1.46s
+Tai-e finishes, elapsed time: 24.63s

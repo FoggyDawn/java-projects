@@ -1,0 +1,58 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/jgrapht-0.8.1/cs1call-output
+Writing options to /home/byx/testSpace/javaprjs/jgrapht-0.8.1/cs1call-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/jgrapht-0.8.1/cs1call-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/jgrapht-0.8.1/cs1call-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/jgrapht-0.8.1/bin ... 255 classes
+5959 classes with 55703 methods in the world
+WorldBuilder finishes, elapsed time: 3.75s
+pta starts ...
+[Pointer analysis] elapsed time: 14.92s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                8,9338 (insens) / 36,4090 (sens)
+#objects:                     9004 (insens) / 9230 (sens)
+#var points-to:               541,0790 (insens) / 3830,9840 (sens)
+#static field points-to:      9624 (sens)
+#instance field points-to:    65,0171 (sens)
+#array points-to:             9,9805 (sens)
+#reachable methods:           1,4275 (insens) / 7,5500 (sens)
+#call graph edges:            7,4699 (insens) / 53,9066 (sens)
+----------------------------------------
+pta finishes, elapsed time: 16.81s
+cg starts ...
+Call graph has 14275 reachable methods and 74699 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/jgrapht-0.8.1/cs1call-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/jgrapht-0.8.1/cs1call-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/jgrapht-0.8.1/cs1call-output/call-edges.txt
+cg finishes, elapsed time: 1.11s
+Tai-e finishes, elapsed time: 21.83s
+[Task Info]
+Task Name: cs1call
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: cs1call-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/jgrapht-0.8.1
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/jgrapht-0.8.1/cs1call_logs/run_20250523-193821.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/jgrapht-0.8.1/cs1call-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-05-23 19:38:21
+Duration: 22.29s
+Peak Memory: 2394.20 MB
+Exit Code: 0

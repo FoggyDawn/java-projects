@@ -1,0 +1,35 @@
+Writing log to /home/byx/testSpace/javaprjs/aoi-2.8.1/ci_app-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/aoi-2.8.1/ci_app-output/tai-e-plan.yml
+WorldBuilder starts ...
+5970 classes with 56204 methods in the world
+WorldBuilder finishes, elapsed time: 8.16s
+pta starts ...
+[Pointer analysis] elapsed time: 0.18s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                2656 (insens) / 4820 (sens)
+#objects:                     748 (insens) / 748 (sens)
+#var points-to:               3337 (insens) / 4834 (sens)
+#static field points-to:      75 (sens)
+#instance field points-to:    733 (sens)
+#array points-to:             161 (sens)
+#reachable methods:           609 (insens) / 1736 (sens)
+#call graph edges:            1692 (insens) / 2848 (sens)
+----------------------------------------
+pta finishes, elapsed time: 0.49s
+cg starts ...
+Call graph has 609 reachable methods and 1692 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/aoi-2.8.1/ci_app-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/aoi-2.8.1/ci_app-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/aoi-2.8.1/ci_app-output/call-edges.txt
+cg finishes, elapsed time: 0.10s
+Tai-e finishes, elapsed time: 9.33s

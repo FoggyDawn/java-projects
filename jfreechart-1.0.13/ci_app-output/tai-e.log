@@ -1,0 +1,35 @@
+Writing log to /home/byx/testSpace/javaprjs/jfreechart-1.0.13/ci_app-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/jfreechart-1.0.13/ci_app-output/tai-e-plan.yml
+WorldBuilder starts ...
+3011 classes with 24250 methods in the world
+WorldBuilder finishes, elapsed time: 2.36s
+pta starts ...
+[Pointer analysis] elapsed time: 0.09s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                325 (insens) / 591 (sens)
+#objects:                     98 (insens) / 98 (sens)
+#var points-to:               375 (insens) / 538 (sens)
+#static field points-to:      5 (sens)
+#instance field points-to:    169 (sens)
+#array points-to:             80 (sens)
+#reachable methods:           57 (insens) / 190 (sens)
+#call graph edges:            184 (insens) / 268 (sens)
+----------------------------------------
+pta finishes, elapsed time: 0.22s
+cg starts ...
+Call graph has 57 reachable methods and 184 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/jfreechart-1.0.13/ci_app-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/jfreechart-1.0.13/ci_app-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/jfreechart-1.0.13/ci_app-output/call-edges.txt
+cg finishes, elapsed time: 0.03s
+Tai-e finishes, elapsed time: 2.77s

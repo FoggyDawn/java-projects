@@ -1,0 +1,463 @@
+Task Summary (2025-05-14 10:58:10)
+==================================================
+Total Tasks: 76
+Success Tasks: 52
+
+Details:
+--------------------------------------------------
+Project: aoi-2.8.1
+Task: taie
+Duration: 10.33s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/aoi-2.8.1/taie_logs/run_20250514-104847.log
+------------------------------
+Project: oscache-2.4.1
+Task: taie
+Duration: 7.02s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/oscache-2.4.1/taie_logs/run_20250514-104857.log
+------------------------------
+Project: pmd-4.2.5
+Task: taie
+Duration: 5.72s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/pmd-4.2.5/taie_logs/run_20250514-104904.log
+------------------------------
+Project: wct-1.5.2
+Task: taie
+Duration: 7.94s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/wct-1.5.2/taie_logs/run_20250514-104910.log
+------------------------------
+Project: tomcat-7.0.2
+Task: taie
+Duration: 15.99s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/tomcat-7.0.2/taie_logs/run_20250514-104918.log
+------------------------------
+Project: velocity-1.6.4
+Task: taie
+Duration: 5.01s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/velocity-1.6.4/taie_logs/run_20250514-104934.log
+------------------------------
+Project: castor-1.3.1
+Task: taie
+Duration: 7.64s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/castor-1.3.1/taie_logs/run_20250514-104939.log
+------------------------------
+Project: jedit-4.3.2
+Task: taie
+Duration: 8.53s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jedit-4.3.2/taie_logs/run_20250514-104946.log
+------------------------------
+Project: itext-5.0.3
+Task: taie
+Duration: 7.92s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/itext-5.0.3/taie_logs/run_20250514-104955.log
+------------------------------
+Project: emma-2.0.5312
+Task: taie
+Duration: 4.32s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/emma-2.0.5312/taie_logs/run_20250514-105003.log
+------------------------------
+Project: picocontainer-2.10.2
+Task: taie
+Duration: 3.31s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/picocontainer-2.10.2/taie_logs/run_20250514-105007.log
+------------------------------
+Project: pooka-3.0-080505
+Task: taie
+Duration: 8.63s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/pooka-3.0-080505/taie_logs/run_20250514-105010.log
+------------------------------
+Project: jag-6.1
+Task: taie
+Duration: 4.12s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jag-6.1/taie_logs/run_20250514-105019.log
+------------------------------
+Project: proguard-4.5.1
+Task: taie
+Duration: 6.42s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/proguard-4.5.1/taie_logs/run_20250514-105023.log
+------------------------------
+Project: commons-collections-3.2.1
+Task: taie
+Duration: 4.11s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/commons-collections-3.2.1/taie_logs/run_20250514-105030.log
+------------------------------
+Project: openjms-0.7.7-beta-1
+Task: taie
+Duration: 8.42s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/taie_logs/run_20250514-105034.log
+------------------------------
+Project: xalan-2.7.1
+Task: taie
+Duration: 9.83s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/xalan-2.7.1/taie_logs/run_20250514-105042.log
+------------------------------
+Project: jgroups-2.10.0
+Task: taie
+Duration: 9.13s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jgroups-2.10.0/taie_logs/run_20250514-105052.log
+------------------------------
+Project: megamek-0.35.18
+Task: taie
+Duration: 13.94s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/megamek-0.35.18/taie_logs/run_20250514-105101.log
+------------------------------
+Project: colt-1.2.0
+Task: taie
+Duration: 4.91s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/colt-1.2.0/taie_logs/run_20250514-105115.log
+------------------------------
+Project: jext-5.0
+Task: taie
+Duration: 7.72s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jext-5.0/taie_logs/run_20250514-105120.log
+------------------------------
+Project: jasml-0.10
+Task: taie
+Duration: 3.61s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jasml-0.10/taie_logs/run_20250514-105128.log
+------------------------------
+Project: batik-1.7
+Task: taie
+Duration: 12.34s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/batik-1.7/taie_logs/run_20250514-105131.log
+------------------------------
+Project: jhotdraw-7.5.1
+Task: taie
+Duration: 6.52s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jhotdraw-7.5.1/taie_logs/run_20250514-105144.log
+------------------------------
+Project: trove-2.1.0
+Task: taie
+Duration: 4.51s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/trove-2.1.0/taie_logs/run_20250514-105150.log
+------------------------------
+Project: freecs-1.3.20100406
+Task: taie
+Duration: 4.93s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/freecs-1.3.20100406/taie_logs/run_20250514-105155.log
+------------------------------
+Project: displaytag-1.2
+Task: taie
+Duration: 2.41s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/displaytag-1.2/taie_logs/run_20250514-105200.log
+------------------------------
+Project: quartz-1.8.3
+Task: taie
+Duration: 5.41s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/quartz-1.8.3/taie_logs/run_20250514-105202.log
+------------------------------
+Project: ivatagroupware-0.11.3
+Task: taie
+Duration: 6.62s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/ivatagroupware-0.11.3/taie_logs/run_20250514-105207.log
+------------------------------
+Project: squirrel_sql-3.1.2
+Task: taie
+Duration: 9.53s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/squirrel_sql-3.1.2/taie_logs/run_20250514-105214.log
+------------------------------
+Project: javacc-5.0
+Task: taie
+Duration: 6.32s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/javacc-5.0/taie_logs/run_20250514-105224.log
+------------------------------
+Project: jfreechart-1.0.13
+Task: taie
+Duration: 5.72s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jfreechart-1.0.13/taie_logs/run_20250514-105230.log
+------------------------------
+Project: webmail-0.7.10
+Task: taie
+Duration: 5.92s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/webmail-0.7.10/taie_logs/run_20250514-105236.log
+------------------------------
+Project: nekohtml-1.9.14
+Task: taie
+Duration: 6.22s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/nekohtml-1.9.14/taie_logs/run_20250514-105242.log
+------------------------------
+Project: ApacheJMeter_core-3.1
+Task: taie
+Duration: 10.53s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/ApacheJMeter_core-3.1/taie_logs/run_20250514-105248.log
+------------------------------
+Project: marauroa-3.8.1
+Task: taie
+Duration: 5.72s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/marauroa-3.8.1/taie_logs/run_20250514-105258.log
+------------------------------
+Project: mockito-core-2.7.17
+Task: taie
+Duration: 3.81s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/mockito-core-2.7.17/taie_logs/run_20250514-105304.log
+------------------------------
+Project: jsXe-04_beta
+Task: taie
+Duration: 7.03s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jsXe-04_beta/taie_logs/run_20250514-105308.log
+------------------------------
+Project: htmlunit-2.8
+Task: taie
+Duration: 7.92s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/htmlunit-2.8/taie_logs/run_20250514-105315.log
+------------------------------
+Project: weka-3-7-9
+Task: taie
+Duration: 16.38s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/weka-3-7-9/taie_logs/run_20250514-105323.log
+------------------------------
+Project: axion-1.0-M2
+Task: taie
+Duration: 5.43s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/axion-1.0-M2/taie_logs/run_20250514-105339.log
+------------------------------
+Project: log4j-1.2.16
+Task: taie
+Duration: 5.13s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/log4j-1.2.16/taie_logs/run_20250514-105345.log
+------------------------------
+Project: sandmark-3.4
+Task: taie
+Duration: 9.33s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/sandmark-3.4/taie_logs/run_20250514-105350.log
+------------------------------
+Project: fitjava-1.1
+Task: taie
+Duration: 3.91s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/fitjava-1.1/taie_logs/run_20250514-105359.log
+------------------------------
+Project: lucene-4.3.0
+Task: taie
+Duration: 3.72s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/lucene-4.3.0/taie_logs/run_20250514-105403.log
+------------------------------
+Project: checkstyle-5.1
+Task: taie
+Duration: 5.92s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/checkstyle-5.1/taie_logs/run_20250514-105407.log
+------------------------------
+Project: jasperreports-1.1.0
+Task: taie
+Duration: 3.43s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jasperreports-1.1.0/taie_logs/run_20250514-105413.log
+------------------------------
+Project: quilt-0.6-a-5
+Task: taie
+Duration: 5.02s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/quilt-0.6-a-5/taie_logs/run_20250514-105416.log
+------------------------------
+Project: jmoney-0.4.4
+Task: taie
+Duration: 4.01s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jmoney-0.4.4/taie_logs/run_20250514-105421.log
+------------------------------
+Project: mvnforum-1.2.2-ga
+Task: taie
+Duration: 9.53s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/mvnforum-1.2.2-ga/taie_logs/run_20250514-105425.log
+------------------------------
+Project: guava-21.0
+Task: taie
+Duration: 7.03s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/guava-21.0/taie_logs/run_20250514-105435.log
+------------------------------
+Project: fitlibraryforfitnesse-20100806
+Task: taie
+Duration: 6.83s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/fitlibraryforfitnesse-20100806/taie_logs/run_20250514-105442.log
+------------------------------
+Project: asm-5.2
+Task: taie
+Duration: 3.41s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/asm-5.2/taie_logs/run_20250514-105448.log
+------------------------------
+Project: drawswf-1.2.9
+Task: taie
+Duration: 5.62s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/drawswf-1.2.9/taie_logs/run_20250514-105452.log
+------------------------------
+Project: jgrapht-0.8.1
+Task: taie
+Duration: 4.81s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jgrapht-0.8.1/taie_logs/run_20250514-105457.log
+------------------------------
+Project: jspwiki-2.8.4
+Task: taie
+Duration: 6.52s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jspwiki-2.8.4/taie_logs/run_20250514-105502.log
+------------------------------
+Project: drools-7.0.0.Beta6
+Task: taie
+Duration: 19.37s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/drools-7.0.0.Beta6/taie_logs/run_20250514-105509.log
+------------------------------
+Project: jgraphpad-5.10.0.2
+Task: taie
+Duration: 4.21s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jgraphpad-5.10.0.2/taie_logs/run_20250514-105528.log
+------------------------------
+Project: jparse-0.96
+Task: taie
+Duration: 3.91s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jparse-0.96/taie_logs/run_20250514-105532.log
+------------------------------
+Project: sunflow-0.07.2
+Task: taie
+Duration: 5.82s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/sunflow-0.07.2/taie_logs/run_20250514-105536.log
+------------------------------
+Project: galleon-2.3.0
+Task: taie
+Duration: 11.34s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/galleon-2.3.0/taie_logs/run_20250514-105542.log
+------------------------------
+Project: jrefactory-2.9.19
+Task: taie
+Duration: 11.95s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jrefactory-2.9.19/taie_logs/run_20250514-105553.log
+------------------------------
+Project: freecol-0.10.7
+Task: taie
+Duration: 9.03s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/freecol-0.10.7/taie_logs/run_20250514-105605.log
+------------------------------
+Project: findbugs-1.3.9
+Task: taie
+Duration: 7.52s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/findbugs-1.3.9/taie_logs/run_20250514-105614.log
+------------------------------
+Project: jpf-1.5.1
+Task: taie
+Duration: 4.71s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jpf-1.5.1/taie_logs/run_20250514-105622.log
+------------------------------
+Project: jrat-0.6
+Task: taie
+Duration: 4.41s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jrat-0.6/taie_logs/run_20250514-105627.log
+------------------------------
+Project: jgraph-5.13.0.0
+Task: taie
+Duration: 3.91s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jgraph-5.13.0.0/taie_logs/run_20250514-105631.log
+------------------------------
+Project: informa-0.7.0-alpha2
+Task: taie
+Duration: 6.52s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/informa-0.7.0-alpha2/taie_logs/run_20250514-105635.log
+------------------------------
+Project: c_jdbc-2.0.2
+Task: taie
+Duration: 14.35s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/c_jdbc-2.0.2/taie_logs/run_20250514-105641.log
+------------------------------
+Project: tapestry-5.1.0.5
+Task: taie
+Duration: 8.02s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/tapestry-5.1.0.5/taie_logs/run_20250514-105656.log
+------------------------------
+Project: aspectj-1.6.9
+Task: taie
+Duration: 37.59s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/aspectj-1.6.9/taie_logs/run_20250514-105704.log
+------------------------------
+Project: jena-2.6.3
+Task: taie
+Duration: 8.52s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jena-2.6.3/taie_logs/run_20250514-105741.log
+------------------------------
+Project: james-2.2.0
+Task: taie
+Duration: 4.71s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/james-2.2.0/taie_logs/run_20250514-105750.log
+------------------------------
+Project: jFin_DateMath-R1.0.1
+Task: taie
+Duration: 3.01s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jFin_DateMath-R1.0.1/taie_logs/run_20250514-105755.log
+------------------------------
+Project: xerces-2.10.0
+Task: taie
+Duration: 7.13s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/xerces-2.10.0/taie_logs/run_20250514-105758.log
+------------------------------
+Project: sablecc-3.2
+Task: taie
+Duration: 5.01s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/sablecc-3.2/taie_logs/run_20250514-105805.log
+------------------------------

@@ -1,0 +1,35 @@
+Writing log to /home/byx/testSpace/javaprjs/drawswf-1.2.9/cs1call-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/drawswf-1.2.9/cs1call-output/tai-e-plan.yml
+WorldBuilder starts ...
+4689 classes with 46448 methods in the world
+WorldBuilder finishes, elapsed time: 4.85s
+pta starts ...
+[Pointer analysis] elapsed time: 10.39s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                6,0931 (insens) / 26,9975 (sens)
+#objects:                     6273 (insens) / 6286 (sens)
+#var points-to:               250,0040 (insens) / 1838,2409 (sens)
+#static field points-to:      3941 (sens)
+#instance field points-to:    22,2125 (sens)
+#array points-to:             3,5075 (sens)
+#reachable methods:           9603 (insens) / 5,4084 (sens)
+#call graph edges:            5,3635 (insens) / 66,8270 (sens)
+----------------------------------------
+pta finishes, elapsed time: 11.64s
+cg starts ...
+Call graph has 9603 reachable methods and 53635 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/drawswf-1.2.9/cs1call-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/drawswf-1.2.9/cs1call-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/drawswf-1.2.9/cs1call-output/call-edges.txt
+cg finishes, elapsed time: 0.87s
+Tai-e finishes, elapsed time: 17.52s

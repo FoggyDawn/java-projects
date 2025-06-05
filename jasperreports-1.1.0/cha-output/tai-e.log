@@ -1,0 +1,13 @@
+Writing log to /home/byx/testSpace/javaprjs/jasperreports-1.1.0/cha-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: c7be5bc7169859d534212a5d557c34b177e43d7c
+Writing analysis plan to /home/byx/testSpace/javaprjs/jasperreports-1.1.0/cha-output/tai-e-plan.yml
+WorldBuilder starts ...

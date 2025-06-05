@@ -1,0 +1,44 @@
+Writing log to /home/byx/testSpace/javaprjs/weka-3-7-9/cs1call-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/weka-3-7-9/cs1call-output/tai-e-plan.yml
+WorldBuilder starts ...
+8387 classes with 77659 methods in the world
+WorldBuilder finishes, elapsed time: 12.42s
+pta starts ...
+[Pointer analysis] elapsed time: 88.69s
+Imprecise reflective calls:
+[Array.newInstance]<weka.gui.experiment.GeneratorPropertyIteratorPanel: int selectProperty()>[25@L189] $r14 = invokestatic java.lang.reflect.Array.newInstance($r11, %intconst2), #targets: 1154
+[Constructor.newInstance]<java.io.ObjectStreamClass: java.lang.Object newInstance()>[5@L919] $r5 = invokevirtual $r4.newInstance($r3), #targets: 425
+[Class.newInstance]<java.security.Provider$Service: java.lang.Object newInstance(java.lang.Object)>[47@L1221] $r24 = invokevirtual $r23.newInstance(), #targets: 425
+[Class.newInstance]<java.security.Provider$Service: java.lang.Object newInstanceGeneric(java.lang.Object)>[2@L1283] $r19 = invokevirtual $r1.newInstance(), #targets: 425
+[Class.newInstance]<weka.gui.beans.KnowledgeFlowApp: void popupCustomizer(java.lang.Class,javax.swing.JComponent)>[0@L4880] $r1 = invokevirtual custClass.newInstance(), #targets: 425
+[Constructor.newInstance]<javax.swing.JTable$GenericEditor: boolean stopCellEditing()>[16@L5456] $r13 = invokevirtual $r11.newInstance($r12), #targets: 125
+[Method.invoke]<java.io.ObjectStreamClass: void invokeWriteObject(java.lang.Object,java.io.ObjectOutputStream)>[7@L940] invokevirtual $r6.invoke(r3, $r4), #targets: 90
+[Method.invoke]<java.io.ObjectStreamClass: void invokeReadObject(java.lang.Object,java.io.ObjectInputStream)>[7@L969] invokevirtual $r6.invoke(r3, $r4), #targets: 51
+-------------- Pointer analysis statistics: --------------
+#var pointers:                19,0845 (insens) / 140,2787 (sens)
+#objects:                     2,5412 (insens) / 3,0003 (sens)
+#var points-to:               4441,8450 (insens) / 4,2643,0795 (sens)
+#static field points-to:      3,6660 (sens)
+#instance field points-to:    4164,8678 (sens)
+#array points-to:             47,1721 (sens)
+#reachable methods:           2,6221 (insens) / 19,7570 (sens)
+#call graph edges:            19,6120 (insens) / 188,0672 (sens)
+----------------------------------------
+pta finishes, elapsed time: 105.24s
+cg starts ...
+Call graph has 26221 reachable methods and 196120 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/weka-3-7-9/cs1call-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/weka-3-7-9/cs1call-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/weka-3-7-9/cs1call-output/call-edges.txt
+cg finishes, elapsed time: 2.68s
+Tai-e finishes, elapsed time: 120.50s

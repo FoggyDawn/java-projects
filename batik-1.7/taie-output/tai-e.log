@@ -1,0 +1,41 @@
+Writing log to /home/byx/testSpace/javaprjs/batik-1.7/taie-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/batik-1.7/taie-output/tai-e-plan.yml
+WorldBuilder starts ...
+10002 classes with 88506 methods in the world
+WorldBuilder finishes, elapsed time: 11.62s
+pta starts ...
+[Pointer analysis] elapsed time: 53.61s
+Imprecise reflective calls:
+[Array.newInstance]<com.sun.beans.TypeResolver: java.lang.reflect.Type resolve(java.lang.reflect.Type,java.lang.reflect.Type)>[12@L164] $r31 = invokestatic java.lang.reflect.Array.newInstance($r30, %intconst0), #targets: 77
+[Array.newInstance]<com.sun.beans.TypeResolver: java.lang.Class erase(java.lang.reflect.Type)>[38@L256] $r9 = invokestatic java.lang.reflect.Array.newInstance($r8, %intconst0), #targets: 77
+[Array.newInstance]<com.sun.beans.TypeResolver: java.lang.reflect.Type fixGenericArray(java.lang.reflect.Type)>[9@L347] $r5 = invokestatic java.lang.reflect.Array.newInstance($r4, %intconst0), #targets: 77
+[Array.newInstance]<java.lang.Class: java.lang.Class toClass(java.lang.reflect.Type)>[6@L1126] $r5 = invokestatic java.lang.reflect.Array.newInstance($r4, %intconst0), #targets: 77
+[Array.newInstance]<sun.reflect.annotation.AnnotationParser: java.lang.Class toClass(java.lang.reflect.Type)>[6@L445] $r5 = invokestatic java.lang.reflect.Array.newInstance($r4, %intconst0), #targets: 77
+-------------- Pointer analysis statistics: --------------
+#var pointers:                19,4084 (insens) / 91,0229 (sens)
+#objects:                     2,2518 (insens) / 2,4163 (sens)
+#var points-to:               2834,5474 (insens) / 1,9013,7290 (sens)
+#static field points-to:      4,5417 (sens)
+#instance field points-to:    600,8687 (sens)
+#array points-to:             62,6466 (sens)
+#reachable methods:           3,0367 (insens) / 17,6482 (sens)
+#call graph edges:            17,4650 (insens) / 111,1693 (sens)
+----------------------------------------
+pta finishes, elapsed time: 63.00s
+cg starts ...
+Call graph has 30367 reachable methods and 174650 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/batik-1.7/taie-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/batik-1.7/taie-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/batik-1.7/taie-output/call-edges.txt
+cg finishes, elapsed time: 2.37s
+Tai-e finishes, elapsed time: 77.16s

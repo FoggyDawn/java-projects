@@ -1,0 +1,61 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/jedit-4.3.2/ci-output
+Writing options to /home/byx/testSpace/javaprjs/jedit-4.3.2/ci-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/jedit-4.3.2/ci-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/jedit-4.3.2/ci-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/jedit-4.3.2/bin ... 1183 classes
+6921 classes with 62987 methods in the world
+WorldBuilder finishes, elapsed time: 7.11s
+pta starts ...
+[Pointer analysis] elapsed time: 18.80s
+Imprecise reflective calls:
+[Class.newInstance]<java.security.Provider$Service: java.lang.Object newInstance(java.lang.Object)>[47@L1221] $r24 = invokevirtual $r23.newInstance(), #targets: 382
+[Class.newInstance]<java.security.Provider$Service: java.lang.Object newInstanceGeneric(java.lang.Object)>[2@L1283] $r19 = invokevirtual $r1.newInstance(), #targets: 382
+-------------- Pointer analysis statistics: --------------
+#var pointers:                14,4037 (insens) / 14,4037 (sens)
+#objects:                     1,7625 (insens) / 1,7625 (sens)
+#var points-to:               2498,0155 (insens) / 2498,0155 (sens)
+#static field points-to:      5,9491 (sens)
+#instance field points-to:    763,4608 (sens)
+#array points-to:             53,6637 (sens)
+#reachable methods:           2,2028 (insens) / 2,2028 (sens)
+#call graph edges:            13,1081 (insens) / 13,1081 (sens)
+----------------------------------------
+pta finishes, elapsed time: 20.64s
+cg starts ...
+Call graph has 22028 reachable methods and 131081 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/jedit-4.3.2/ci-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/jedit-4.3.2/ci-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/jedit-4.3.2/ci-output/call-edges.txt
+cg finishes, elapsed time: 1.88s
+Tai-e finishes, elapsed time: 29.80s
+[Task Info]
+Task Name: ci
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: ci-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/jedit-4.3.2
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/jedit-4.3.2/ci_logs/run_20250522-160342.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/jedit-4.3.2/ci-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-05-22 16:03:42
+Duration: 30.31s
+Peak Memory: 2418.98 MB
+Exit Code: 0

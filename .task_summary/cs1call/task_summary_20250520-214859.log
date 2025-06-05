@@ -1,0 +1,463 @@
+Task Summary (2025-05-20 21:58:01)
+==================================================
+Total Tasks: 76
+Success Tasks: 46
+
+Details:
+--------------------------------------------------
+Project: aoi-2.8.1
+Task: cs1call
+Duration: 11.14s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/aoi-2.8.1/cs1call_logs/run_20250520-214859.log
+------------------------------
+Project: oscache-2.4.1
+Task: cs1call
+Duration: 6.32s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/oscache-2.4.1/cs1call_logs/run_20250520-214910.log
+------------------------------
+Project: pmd-4.2.5
+Task: cs1call
+Duration: 5.42s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/pmd-4.2.5/cs1call_logs/run_20250520-214916.log
+------------------------------
+Project: wct-1.5.2
+Task: cs1call
+Duration: 7.24s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/wct-1.5.2/cs1call_logs/run_20250520-214922.log
+------------------------------
+Project: tomcat-7.0.2
+Task: cs1call
+Duration: 4.12s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/tomcat-7.0.2/cs1call_logs/run_20250520-214929.log
+------------------------------
+Project: velocity-1.6.4
+Task: cs1call
+Duration: 5.22s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/velocity-1.6.4/cs1call_logs/run_20250520-214933.log
+------------------------------
+Project: castor-1.3.1
+Task: cs1call
+Duration: 2.61s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/castor-1.3.1/cs1call_logs/run_20250520-214938.log
+------------------------------
+Project: jedit-4.3.2
+Task: cs1call
+Duration: 8.92s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jedit-4.3.2/cs1call_logs/run_20250520-214941.log
+------------------------------
+Project: itext-5.0.3
+Task: cs1call
+Duration: 8.33s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/itext-5.0.3/cs1call_logs/run_20250520-214950.log
+------------------------------
+Project: emma-2.0.5312
+Task: cs1call
+Duration: 4.62s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/emma-2.0.5312/cs1call_logs/run_20250520-214958.log
+------------------------------
+Project: picocontainer-2.10.2
+Task: cs1call
+Duration: 3.61s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/picocontainer-2.10.2/cs1call_logs/run_20250520-215003.log
+------------------------------
+Project: pooka-3.0-080505
+Task: cs1call
+Duration: 9.53s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/pooka-3.0-080505/cs1call_logs/run_20250520-215007.log
+------------------------------
+Project: jag-6.1
+Task: cs1call
+Duration: 4.92s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jag-6.1/cs1call_logs/run_20250520-215016.log
+------------------------------
+Project: proguard-4.5.1
+Task: cs1call
+Duration: 7.63s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/proguard-4.5.1/cs1call_logs/run_20250520-215021.log
+------------------------------
+Project: commons-collections-3.2.1
+Task: cs1call
+Duration: 4.61s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/commons-collections-3.2.1/cs1call_logs/run_20250520-215029.log
+------------------------------
+Project: openjms-0.7.7-beta-1
+Task: cs1call
+Duration: 8.93s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/cs1call_logs/run_20250520-215033.log
+------------------------------
+Project: xalan-2.7.1
+Task: cs1call
+Duration: 16.16s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/xalan-2.7.1/cs1call_logs/run_20250520-215042.log
+------------------------------
+Project: jgroups-2.10.0
+Task: cs1call
+Duration: 9.74s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jgroups-2.10.0/cs1call_logs/run_20250520-215058.log
+------------------------------
+Project: megamek-0.35.18
+Task: cs1call
+Duration: 14.84s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/megamek-0.35.18/cs1call_logs/run_20250520-215108.log
+------------------------------
+Project: colt-1.2.0
+Task: cs1call
+Duration: 5.12s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/colt-1.2.0/cs1call_logs/run_20250520-215123.log
+------------------------------
+Project: jext-5.0
+Task: cs1call
+Duration: 8.42s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jext-5.0/cs1call_logs/run_20250520-215128.log
+------------------------------
+Project: jasml-0.10
+Task: cs1call
+Duration: 3.81s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jasml-0.10/cs1call_logs/run_20250520-215136.log
+------------------------------
+Project: batik-1.7
+Task: cs1call
+Duration: 12.44s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/batik-1.7/cs1call_logs/run_20250520-215140.log
+------------------------------
+Project: jhotdraw-7.5.1
+Task: cs1call
+Duration: 6.82s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jhotdraw-7.5.1/cs1call_logs/run_20250520-215153.log
+------------------------------
+Project: trove-2.1.0
+Task: cs1call
+Duration: 4.82s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/trove-2.1.0/cs1call_logs/run_20250520-215200.log
+------------------------------
+Project: freecs-1.3.20100406
+Task: cs1call
+Duration: 5.32s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/freecs-1.3.20100406/cs1call_logs/run_20250520-215204.log
+------------------------------
+Project: displaytag-1.2
+Task: cs1call
+Duration: 2.51s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/displaytag-1.2/cs1call_logs/run_20250520-215210.log
+------------------------------
+Project: quartz-1.8.3
+Task: cs1call
+Duration: 5.62s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/quartz-1.8.3/cs1call_logs/run_20250520-215212.log
+------------------------------
+Project: ivatagroupware-0.11.3
+Task: cs1call
+Duration: 7.02s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/ivatagroupware-0.11.3/cs1call_logs/run_20250520-215218.log
+------------------------------
+Project: squirrel_sql-3.1.2
+Task: cs1call
+Duration: 10.23s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/squirrel_sql-3.1.2/cs1call_logs/run_20250520-215225.log
+------------------------------
+Project: javacc-5.0
+Task: cs1call
+Duration: 7.03s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/javacc-5.0/cs1call_logs/run_20250520-215235.log
+------------------------------
+Project: jfreechart-1.0.13
+Task: cs1call
+Duration: 3.41s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jfreechart-1.0.13/cs1call_logs/run_20250520-215242.log
+------------------------------
+Project: webmail-0.7.10
+Task: cs1call
+Duration: 6.62s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/webmail-0.7.10/cs1call_logs/run_20250520-215246.log
+------------------------------
+Project: nekohtml-1.9.14
+Task: cs1call
+Duration: 5.92s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/nekohtml-1.9.14/cs1call_logs/run_20250520-215252.log
+------------------------------
+Project: ApacheJMeter_core-3.1
+Task: cs1call
+Duration: 10.13s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/ApacheJMeter_core-3.1/cs1call_logs/run_20250520-215258.log
+------------------------------
+Project: marauroa-3.8.1
+Task: cs1call
+Duration: 5.92s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/marauroa-3.8.1/cs1call_logs/run_20250520-215308.log
+------------------------------
+Project: mockito-core-2.7.17
+Task: cs1call
+Duration: 3.91s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/mockito-core-2.7.17/cs1call_logs/run_20250520-215314.log
+------------------------------
+Project: jsXe-04_beta
+Task: cs1call
+Duration: 7.23s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jsXe-04_beta/cs1call_logs/run_20250520-215318.log
+------------------------------
+Project: htmlunit-2.8
+Task: cs1call
+Duration: 7.32s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/htmlunit-2.8/cs1call_logs/run_20250520-215325.log
+------------------------------
+Project: weka-3-7-9
+Task: cs1call
+Duration: 14.44s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/weka-3-7-9/cs1call_logs/run_20250520-215333.log
+------------------------------
+Project: axion-1.0-M2
+Task: cs1call
+Duration: 4.82s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/axion-1.0-M2/cs1call_logs/run_20250520-215347.log
+------------------------------
+Project: log4j-1.2.16
+Task: cs1call
+Duration: 4.91s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/log4j-1.2.16/cs1call_logs/run_20250520-215352.log
+------------------------------
+Project: sandmark-3.4
+Task: cs1call
+Duration: 8.43s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/sandmark-3.4/cs1call_logs/run_20250520-215357.log
+------------------------------
+Project: fitjava-1.1
+Task: cs1call
+Duration: 3.21s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/fitjava-1.1/cs1call_logs/run_20250520-215405.log
+------------------------------
+Project: lucene-4.3.0
+Task: cs1call
+Duration: 3.51s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/lucene-4.3.0/cs1call_logs/run_20250520-215409.log
+------------------------------
+Project: checkstyle-5.1
+Task: cs1call
+Duration: 5.83s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/checkstyle-5.1/cs1call_logs/run_20250520-215412.log
+------------------------------
+Project: jasperreports-1.1.0
+Task: cs1call
+Duration: 3.31s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jasperreports-1.1.0/cs1call_logs/run_20250520-215418.log
+------------------------------
+Project: quilt-0.6-a-5
+Task: cs1call
+Duration: 5.01s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/quilt-0.6-a-5/cs1call_logs/run_20250520-215421.log
+------------------------------
+Project: jmoney-0.4.4
+Task: cs1call
+Duration: 3.81s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jmoney-0.4.4/cs1call_logs/run_20250520-215426.log
+------------------------------
+Project: mvnforum-1.2.2-ga
+Task: cs1call
+Duration: 9.73s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/mvnforum-1.2.2-ga/cs1call_logs/run_20250520-215430.log
+------------------------------
+Project: guava-21.0
+Task: cs1call
+Duration: 7.12s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/guava-21.0/cs1call_logs/run_20250520-215440.log
+------------------------------
+Project: fitlibraryforfitnesse-20100806
+Task: cs1call
+Duration: 7.32s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/fitlibraryforfitnesse-20100806/cs1call_logs/run_20250520-215447.log
+------------------------------
+Project: asm-5.2
+Task: cs1call
+Duration: 3.51s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/asm-5.2/cs1call_logs/run_20250520-215454.log
+------------------------------
+Project: drawswf-1.2.9
+Task: cs1call
+Duration: 6.12s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/drawswf-1.2.9/cs1call_logs/run_20250520-215458.log
+------------------------------
+Project: jgrapht-0.8.1
+Task: cs1call
+Duration: 5.22s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jgrapht-0.8.1/cs1call_logs/run_20250520-215504.log
+------------------------------
+Project: jspwiki-2.8.4
+Task: cs1call
+Duration: 7.22s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jspwiki-2.8.4/cs1call_logs/run_20250520-215509.log
+------------------------------
+Project: drools-7.0.0.Beta6
+Task: cs1call
+Duration: 20.16s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/drools-7.0.0.Beta6/cs1call_logs/run_20250520-215516.log
+------------------------------
+Project: jgraphpad-5.10.0.2
+Task: cs1call
+Duration: 5.22s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jgraphpad-5.10.0.2/cs1call_logs/run_20250520-215536.log
+------------------------------
+Project: jparse-0.96
+Task: cs1call
+Duration: 4.13s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jparse-0.96/cs1call_logs/run_20250520-215542.log
+------------------------------
+Project: sunflow-0.07.2
+Task: cs1call
+Duration: 6.03s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/sunflow-0.07.2/cs1call_logs/run_20250520-215546.log
+------------------------------
+Project: galleon-2.3.0
+Task: cs1call
+Duration: 11.94s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/galleon-2.3.0/cs1call_logs/run_20250520-215552.log
+------------------------------
+Project: jrefactory-2.9.19
+Task: cs1call
+Duration: 12.65s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jrefactory-2.9.19/cs1call_logs/run_20250520-215604.log
+------------------------------
+Project: freecol-0.10.7
+Task: cs1call
+Duration: 9.83s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/freecol-0.10.7/cs1call_logs/run_20250520-215616.log
+------------------------------
+Project: findbugs-1.3.9
+Task: cs1call
+Duration: 7.62s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/findbugs-1.3.9/cs1call_logs/run_20250520-215626.log
+------------------------------
+Project: jpf-1.5.1
+Task: cs1call
+Duration: 4.92s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jpf-1.5.1/cs1call_logs/run_20250520-215634.log
+------------------------------
+Project: jrat-0.6
+Task: cs1call
+Duration: 5.12s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jrat-0.6/cs1call_logs/run_20250520-215639.log
+------------------------------
+Project: jgraph-5.13.0.0
+Task: cs1call
+Duration: 4.32s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jgraph-5.13.0.0/cs1call_logs/run_20250520-215644.log
+------------------------------
+Project: informa-0.7.0-alpha2
+Task: cs1call
+Duration: 7.64s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/informa-0.7.0-alpha2/cs1call_logs/run_20250520-215648.log
+------------------------------
+Project: c_jdbc-2.0.2
+Task: cs1call
+Duration: 15.87s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/c_jdbc-2.0.2/cs1call_logs/run_20250520-215656.log
+------------------------------
+Project: tapestry-5.1.0.5
+Task: cs1call
+Duration: 8.94s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/tapestry-5.1.0.5/cs1call_logs/run_20250520-215712.log
+------------------------------
+Project: aspectj-1.6.9
+Task: cs1call
+Duration: 2.92s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/aspectj-1.6.9/cs1call_logs/run_20250520-215721.log
+------------------------------
+Project: jena-2.6.3
+Task: cs1call
+Duration: 9.73s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jena-2.6.3/cs1call_logs/run_20250520-215724.log
+------------------------------
+Project: james-2.2.0
+Task: cs1call
+Duration: 6.23s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/james-2.2.0/cs1call_logs/run_20250520-215733.log
+------------------------------
+Project: jFin_DateMath-R1.0.1
+Task: cs1call
+Duration: 3.51s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jFin_DateMath-R1.0.1/cs1call_logs/run_20250520-215740.log
+------------------------------
+Project: xerces-2.10.0
+Task: cs1call
+Duration: 11.64s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/xerces-2.10.0/cs1call_logs/run_20250520-215743.log
+------------------------------
+Project: sablecc-3.2
+Task: cs1call
+Duration: 5.72s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/sablecc-3.2/cs1call_logs/run_20250520-215755.log
+------------------------------

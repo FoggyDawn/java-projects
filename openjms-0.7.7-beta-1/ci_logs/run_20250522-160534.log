@@ -1,0 +1,58 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/ci-output
+Writing options to /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/ci-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/ci-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/ci-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/bin ... 808 classes
+4271 classes with 43130 methods in the world
+WorldBuilder finishes, elapsed time: 7.80s
+pta starts ...
+[Pointer analysis] elapsed time: 2.17s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                2,2157 (insens) / 2,2157 (sens)
+#objects:                     2307 (insens) / 2307 (sens)
+#var points-to:               39,5220 (insens) / 39,5220 (sens)
+#static field points-to:      2099 (sens)
+#instance field points-to:    5,1785 (sens)
+#array points-to:             6165 (sens)
+#reachable methods:           2932 (insens) / 2932 (sens)
+#call graph edges:            1,4515 (insens) / 1,4515 (sens)
+----------------------------------------
+pta finishes, elapsed time: 2.43s
+cg starts ...
+Call graph has 2932 reachable methods and 14515 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/ci-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/ci-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/ci-output/call-edges.txt
+cg finishes, elapsed time: 0.35s
+Tai-e finishes, elapsed time: 10.73s
+[Task Info]
+Task Name: ci
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: ci-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/ci_logs/run_20250522-160534.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/ci-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-05-22 16:05:34
+Duration: 11.23s
+Peak Memory: 1165.71 MB
+Exit Code: 0

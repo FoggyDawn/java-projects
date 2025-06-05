@@ -1,0 +1,463 @@
+Task Summary (2025-05-22 17:07:00)
+==================================================
+Total Tasks: 76
+Success Tasks: 43
+
+Details:
+--------------------------------------------------
+Project: aoi-2.8.1
+Task: ci
+Duration: 31.61s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/aoi-2.8.1/ci_logs/run_20250522-165136.log
+------------------------------
+Project: oscache-2.4.1
+Task: ci
+Duration: 6.92s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/oscache-2.4.1/ci_logs/run_20250522-165208.log
+------------------------------
+Project: pmd-4.2.5
+Task: ci
+Duration: 5.62s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/pmd-4.2.5/ci_logs/run_20250522-165215.log
+------------------------------
+Project: wct-1.5.2
+Task: ci
+Duration: 7.43s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/wct-1.5.2/ci_logs/run_20250522-165220.log
+------------------------------
+Project: tomcat-7.0.2
+Task: ci
+Duration: 3.71s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/tomcat-7.0.2/ci_logs/run_20250522-165228.log
+------------------------------
+Project: velocity-1.6.4
+Task: ci
+Duration: 5.12s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/velocity-1.6.4/ci_logs/run_20250522-165232.log
+------------------------------
+Project: castor-1.3.1
+Task: ci
+Duration: 2.51s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/castor-1.3.1/ci_logs/run_20250522-165237.log
+------------------------------
+Project: jedit-4.3.2
+Task: ci
+Duration: 29.09s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jedit-4.3.2/ci_logs/run_20250522-165239.log
+------------------------------
+Project: itext-5.0.3
+Task: ci
+Duration: 18.98s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/itext-5.0.3/ci_logs/run_20250522-165308.log
+------------------------------
+Project: emma-2.0.5312
+Task: ci
+Duration: 4.51s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/emma-2.0.5312/ci_logs/run_20250522-165327.log
+------------------------------
+Project: picocontainer-2.10.2
+Task: ci
+Duration: 3.61s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/picocontainer-2.10.2/ci_logs/run_20250522-165332.log
+------------------------------
+Project: pooka-3.0-080505
+Task: ci
+Duration: 31.81s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/pooka-3.0-080505/ci_logs/run_20250522-165335.log
+------------------------------
+Project: jag-6.1
+Task: ci
+Duration: 5.72s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jag-6.1/ci_logs/run_20250522-165407.log
+------------------------------
+Project: proguard-4.5.1
+Task: ci
+Duration: 10.53s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/proguard-4.5.1/ci_logs/run_20250522-165413.log
+------------------------------
+Project: commons-collections-3.2.1
+Task: ci
+Duration: 4.21s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/commons-collections-3.2.1/ci_logs/run_20250522-165423.log
+------------------------------
+Project: openjms-0.7.7-beta-1
+Task: ci
+Duration: 10.73s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/ci_logs/run_20250522-165428.log
+------------------------------
+Project: xalan-2.7.1
+Task: ci
+Duration: 31.61s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/xalan-2.7.1/ci_logs/run_20250522-165438.log
+------------------------------
+Project: jgroups-2.10.0
+Task: ci
+Duration: 26.98s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jgroups-2.10.0/ci_logs/run_20250522-165510.log
+------------------------------
+Project: megamek-0.35.18
+Task: ci
+Duration: 26.2s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/megamek-0.35.18/ci_logs/run_20250522-165537.log
+------------------------------
+Project: colt-1.2.0
+Task: ci
+Duration: 5.22s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/colt-1.2.0/ci_logs/run_20250522-165603.log
+------------------------------
+Project: jext-5.0
+Task: ci
+Duration: 21.26s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jext-5.0/ci_logs/run_20250522-165608.log
+------------------------------
+Project: jasml-0.10
+Task: ci
+Duration: 6.32s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jasml-0.10/ci_logs/run_20250522-165630.log
+------------------------------
+Project: batik-1.7
+Task: ci
+Duration: 51.51s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/batik-1.7/ci_logs/run_20250522-165636.log
+------------------------------
+Project: jhotdraw-7.5.1
+Task: ci
+Duration: 30.91s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jhotdraw-7.5.1/ci_logs/run_20250522-165727.log
+------------------------------
+Project: trove-2.1.0
+Task: ci
+Duration: 4.72s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/trove-2.1.0/ci_logs/run_20250522-165758.log
+------------------------------
+Project: freecs-1.3.20100406
+Task: ci
+Duration: 12.64s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/freecs-1.3.20100406/ci_logs/run_20250522-165803.log
+------------------------------
+Project: displaytag-1.2
+Task: ci
+Duration: 2.41s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/displaytag-1.2/ci_logs/run_20250522-165816.log
+------------------------------
+Project: quartz-1.8.3
+Task: ci
+Duration: 13.34s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/quartz-1.8.3/ci_logs/run_20250522-165818.log
+------------------------------
+Project: ivatagroupware-0.11.3
+Task: ci
+Duration: 7.02s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/ivatagroupware-0.11.3/ci_logs/run_20250522-165831.log
+------------------------------
+Project: squirrel_sql-3.1.2
+Task: ci
+Duration: 10.84s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/squirrel_sql-3.1.2/ci_logs/run_20250522-165838.log
+------------------------------
+Project: javacc-5.0
+Task: ci
+Duration: 13.24s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/javacc-5.0/ci_logs/run_20250522-165849.log
+------------------------------
+Project: jfreechart-1.0.13
+Task: ci
+Duration: 3.51s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jfreechart-1.0.13/ci_logs/run_20250522-165903.log
+------------------------------
+Project: webmail-0.7.10
+Task: ci
+Duration: 6.22s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/webmail-0.7.10/ci_logs/run_20250522-165906.log
+------------------------------
+Project: nekohtml-1.9.14
+Task: ci
+Duration: 6.32s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/nekohtml-1.9.14/ci_logs/run_20250522-165912.log
+------------------------------
+Project: ApacheJMeter_core-3.1
+Task: ci
+Duration: 10.34s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/ApacheJMeter_core-3.1/ci_logs/run_20250522-165919.log
+------------------------------
+Project: marauroa-3.8.1
+Task: ci
+Duration: 12.05s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/marauroa-3.8.1/ci_logs/run_20250522-165929.log
+------------------------------
+Project: mockito-core-2.7.17
+Task: ci
+Duration: 3.81s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/mockito-core-2.7.17/ci_logs/run_20250522-165941.log
+------------------------------
+Project: jsXe-04_beta
+Task: ci
+Duration: 7.12s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jsXe-04_beta/ci_logs/run_20250522-165945.log
+------------------------------
+Project: htmlunit-2.8
+Task: ci
+Duration: 7.02s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/htmlunit-2.8/ci_logs/run_20250522-165952.log
+------------------------------
+Project: weka-3-7-9
+Task: ci
+Duration: 48.76s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/weka-3-7-9/ci_logs/run_20250522-165959.log
+------------------------------
+Project: axion-1.0-M2
+Task: ci
+Duration: 5.92s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/axion-1.0-M2/ci_logs/run_20250522-170048.log
+------------------------------
+Project: log4j-1.2.16
+Task: ci
+Duration: 17.88s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/log4j-1.2.16/ci_logs/run_20250522-170054.log
+------------------------------
+Project: sandmark-3.4
+Task: ci
+Duration: 13.55s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/sandmark-3.4/ci_logs/run_20250522-170112.log
+------------------------------
+Project: fitjava-1.1
+Task: ci
+Duration: 7.42s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/fitjava-1.1/ci_logs/run_20250522-170125.log
+------------------------------
+Project: lucene-4.3.0
+Task: ci
+Duration: 3.51s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/lucene-4.3.0/ci_logs/run_20250522-170133.log
+------------------------------
+Project: checkstyle-5.1
+Task: ci
+Duration: 10.33s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/checkstyle-5.1/ci_logs/run_20250522-170136.log
+------------------------------
+Project: jasperreports-1.1.0
+Task: ci
+Duration: 3.21s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jasperreports-1.1.0/ci_logs/run_20250522-170146.log
+------------------------------
+Project: quilt-0.6-a-5
+Task: ci
+Duration: 11.84s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/quilt-0.6-a-5/ci_logs/run_20250522-170150.log
+------------------------------
+Project: jmoney-0.4.4
+Task: ci
+Duration: 6.82s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jmoney-0.4.4/ci_logs/run_20250522-170201.log
+------------------------------
+Project: mvnforum-1.2.2-ga
+Task: ci
+Duration: 9.73s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/mvnforum-1.2.2-ga/ci_logs/run_20250522-170208.log
+------------------------------
+Project: guava-21.0
+Task: ci
+Duration: 7.13s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/guava-21.0/ci_logs/run_20250522-170218.log
+------------------------------
+Project: fitlibraryforfitnesse-20100806
+Task: ci
+Duration: 11.84s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/fitlibraryforfitnesse-20100806/ci_logs/run_20250522-170225.log
+------------------------------
+Project: asm-5.2
+Task: ci
+Duration: 3.93s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/asm-5.2/ci_logs/run_20250522-170237.log
+------------------------------
+Project: drawswf-1.2.9
+Task: ci
+Duration: 12.55s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/drawswf-1.2.9/ci_logs/run_20250522-170241.log
+------------------------------
+Project: jgrapht-0.8.1
+Task: ci
+Duration: 16.15s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jgrapht-0.8.1/ci_logs/run_20250522-170253.log
+------------------------------
+Project: jspwiki-2.8.4
+Task: ci
+Duration: 14.15s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jspwiki-2.8.4/ci_logs/run_20250522-170310.log
+------------------------------
+Project: drools-7.0.0.Beta6
+Task: ci
+Duration: 21.08s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/drools-7.0.0.Beta6/ci_logs/run_20250522-170324.log
+------------------------------
+Project: jgraphpad-5.10.0.2
+Task: ci
+Duration: 5.42s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jgraphpad-5.10.0.2/ci_logs/run_20250522-170345.log
+------------------------------
+Project: jparse-0.96
+Task: ci
+Duration: 4.01s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jparse-0.96/ci_logs/run_20250522-170350.log
+------------------------------
+Project: sunflow-0.07.2
+Task: ci
+Duration: 27.5s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/sunflow-0.07.2/ci_logs/run_20250522-170354.log
+------------------------------
+Project: galleon-2.3.0
+Task: ci
+Duration: 12.35s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/galleon-2.3.0/ci_logs/run_20250522-170422.log
+------------------------------
+Project: jrefactory-2.9.19
+Task: ci
+Duration: 13.14s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jrefactory-2.9.19/ci_logs/run_20250522-170434.log
+------------------------------
+Project: freecol-0.10.7
+Task: ci
+Duration: 34.58s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/freecol-0.10.7/ci_logs/run_20250522-170447.log
+------------------------------
+Project: findbugs-1.3.9
+Task: ci
+Duration: 7.72s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/findbugs-1.3.9/ci_logs/run_20250522-170522.log
+------------------------------
+Project: jpf-1.5.1
+Task: ci
+Duration: 4.62s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jpf-1.5.1/ci_logs/run_20250522-170530.log
+------------------------------
+Project: jrat-0.6
+Task: ci
+Duration: 8.33s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jrat-0.6/ci_logs/run_20250522-170534.log
+------------------------------
+Project: jgraph-5.13.0.0
+Task: ci
+Duration: 4.11s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jgraph-5.13.0.0/ci_logs/run_20250522-170542.log
+------------------------------
+Project: informa-0.7.0-alpha2
+Task: ci
+Duration: 7.03s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/informa-0.7.0-alpha2/ci_logs/run_20250522-170547.log
+------------------------------
+Project: c_jdbc-2.0.2
+Task: ci
+Duration: 15.04s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/c_jdbc-2.0.2/ci_logs/run_20250522-170554.log
+------------------------------
+Project: tapestry-5.1.0.5
+Task: ci
+Duration: 8.54s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/tapestry-5.1.0.5/ci_logs/run_20250522-170609.log
+------------------------------
+Project: aspectj-1.6.9
+Task: ci
+Duration: 2.82s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/aspectj-1.6.9/ci_logs/run_20250522-170617.log
+------------------------------
+Project: jena-2.6.3
+Task: ci
+Duration: 8.72s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jena-2.6.3/ci_logs/run_20250522-170620.log
+------------------------------
+Project: james-2.2.0
+Task: ci
+Duration: 5.22s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/james-2.2.0/ci_logs/run_20250522-170629.log
+------------------------------
+Project: jFin_DateMath-R1.0.1
+Task: ci
+Duration: 3.02s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jFin_DateMath-R1.0.1/ci_logs/run_20250522-170634.log
+------------------------------
+Project: xerces-2.10.0
+Task: ci
+Duration: 10.73s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/xerces-2.10.0/ci_logs/run_20250522-170637.log
+------------------------------
+Project: sablecc-3.2
+Task: ci
+Duration: 12.34s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/sablecc-3.2/ci_logs/run_20250522-170648.log
+------------------------------

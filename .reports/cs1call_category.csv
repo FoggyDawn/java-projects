@@ -1,0 +1,7 @@
+分类,项目列表
+Success,"aoi-2.8.1,jedit-4.3.2,itext-5.0.3,emma-2.0.5312,pooka-3.0-080505,jag-6.1,proguard-4.5.1,openjms-0.7.7-beta-1,xalan-2.7.1,jgroups-2.10.0,megamek-0.35.18,jext-5.0,jasml-0.10,batik-1.7,jhotdraw-7.5.1,freecs-1.3.20100406,quartz-1.8.3,javacc-5.0,jfreechart-1.0.13,marauroa-3.8.1,weka-3-7-9,axion-1.0-M2,log4j-1.2.16,sandmark-3.4,fitjava-1.1,checkstyle-5.1,quilt-0.6-a-5,jmoney-0.4.4,fitlibraryforfitnesse-20100806,drawswf-1.2.9,jgrapht-0.8.1,jspwiki-2.8.4,sunflow-0.07.2,jrefactory-2.9.19,freecol-0.10.7,jrat-0.6,james-2.2.0,sablecc-3.2"
+java.lang.RuntimeException: Failed to convert,"oscache-2.4.1,pmd-4.2.5,wct-1.5.2,tomcat-7.0.2,displaytag-1.2,ivatagroupware-0.11.3,squirrel_sql-3.1.2,galleon-2.3.0,findbugs-1.3.9,informa-0.7.0-alpha2,tapestry-5.1.0.5"
+java.lang.RuntimeException: Main-class has no main method!,"velocity-1.6.4,castor-1.3.1,picocontainer-2.10.2,webmail-0.7.10,ApacheJMeter_core-3.1,mockito-core-2.7.17,jsXe-04_beta,jgraphpad-5.10.0.2,jparse-0.96,jpf-1.5.1,c_jdbc-2.0.2,aspectj-1.6.9,jena-2.6.3"
+no reachable,"commons-collections-3.2.1,colt-1.2.0,trove-2.1.0,htmlunit-2.8,lucene-4.3.0,mvnforum-1.2.2-ga,guava-21.0,asm-5.2,drools-7.0.0.Beta6,jgraph-5.13.0.0,jFin_DateMath-R1.0.1,xerces-2.10.0"
+java.lang.NullPointerException: TwoKeyMap does not permit null keys,nekohtml-1.9.14
+java.lang.RuntimeException: Failed to apply jb to,jasperreports-1.1.0

@@ -1,0 +1,247 @@
+Task Summary (2025-05-26 19:29:46)
+==================================================
+Total Tasks: 40
+Success Tasks: 18
+
+Details:
+--------------------------------------------------
+Project: aoi-2.8.1
+Task: cha
+Duration: 17.05s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/aoi-2.8.1/cha_logs/run_20250526-191913.log
+------------------------------
+Project: jedit-4.3.2
+Task: cha
+Duration: 26.27s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jedit-4.3.2/cha_logs/run_20250526-191930.log
+------------------------------
+Project: itext-5.0.3
+Task: cha
+Duration: 25.08s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/itext-5.0.3/cha_logs/run_20250526-191956.log
+------------------------------
+Project: emma-2.0.5312
+Task: cha
+Duration: 10.23s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/emma-2.0.5312/cha_logs/run_20250526-192021.log
+------------------------------
+Project: pooka-3.0-080505
+Task: cha
+Duration: 33.61s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/pooka-3.0-080505/cha_logs/run_20250526-192031.log
+------------------------------
+Project: jag-6.1
+Task: cha
+Duration: 10.53s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jag-6.1/cha_logs/run_20250526-192105.log
+------------------------------
+Project: proguard-4.5.1
+Task: cha
+Duration: 8.13s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/proguard-4.5.1/cha_logs/run_20250526-192115.log
+------------------------------
+Project: openjms-0.7.7-beta-1
+Task: cha
+Duration: 8.83s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/openjms-0.7.7-beta-1/cha_logs/run_20250526-192123.log
+------------------------------
+Project: xalan-2.7.1
+Task: cha
+Duration: 16.95s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/xalan-2.7.1/cha_logs/run_20250526-192132.log
+------------------------------
+Project: jgroups-2.10.0
+Task: cha
+Duration: 12.38s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jgroups-2.10.0/cha_logs/run_20250526-192149.log
+------------------------------
+Project: megamek-0.35.18
+Task: cha
+Duration: 14.76s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/megamek-0.35.18/cha_logs/run_20250526-192202.log
+------------------------------
+Project: jext-5.0
+Task: cha
+Duration: 23.07s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jext-5.0/cha_logs/run_20250526-192216.log
+------------------------------
+Project: jasml-0.10
+Task: cha
+Duration: 14.35s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jasml-0.10/cha_logs/run_20250526-192239.log
+------------------------------
+Project: batik-1.7
+Task: cha
+Duration: 14.27s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/batik-1.7/cha_logs/run_20250526-192254.log
+------------------------------
+Project: jhotdraw-7.5.1
+Task: cha
+Duration: 29.9s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jhotdraw-7.5.1/cha_logs/run_20250526-192308.log
+------------------------------
+Project: freecs-1.3.20100406
+Task: cha
+Duration: 6.34s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/freecs-1.3.20100406/cha_logs/run_20250526-192338.log
+------------------------------
+Project: quartz-1.8.3
+Task: cha
+Duration: 8.94s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/quartz-1.8.3/cha_logs/run_20250526-192344.log
+------------------------------
+Project: javacc-5.0
+Task: cha
+Duration: 26.41s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/javacc-5.0/cha_logs/run_20250526-192353.log
+------------------------------
+Project: jfreechart-1.0.13
+Task: cha
+Duration: 9.93s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jfreechart-1.0.13/cha_logs/run_20250526-192420.log
+------------------------------
+Project: nekohtml-1.9.14
+Task: cha
+Duration: 13.34s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/nekohtml-1.9.14/cha_logs/run_20250526-192430.log
+------------------------------
+Project: marauroa-3.8.1
+Task: cha
+Duration: 22.88s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/marauroa-3.8.1/cha_logs/run_20250526-192443.log
+------------------------------
+Project: weka-3-7-9
+Task: cha
+Duration: 43.34s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/weka-3-7-9/cha_logs/run_20250526-192506.log
+------------------------------
+Project: axion-1.0-M2
+Task: cha
+Duration: 6.12s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/axion-1.0-M2/cha_logs/run_20250526-192549.log
+------------------------------
+Project: log4j-1.2.16
+Task: cha
+Duration: 23.58s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/log4j-1.2.16/cha_logs/run_20250526-192555.log
+------------------------------
+Project: sandmark-3.4
+Task: cha
+Duration: 12.15s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/sandmark-3.4/cha_logs/run_20250526-192619.log
+------------------------------
+Project: fitjava-1.1
+Task: cha
+Duration: 16.77s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/fitjava-1.1/cha_logs/run_20250526-192631.log
+------------------------------
+Project: checkstyle-5.1
+Task: cha
+Duration: 5.32s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/checkstyle-5.1/cha_logs/run_20250526-192648.log
+------------------------------
+Project: jasperreports-1.1.0
+Task: cha
+Duration: 3.61s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jasperreports-1.1.0/cha_logs/run_20250526-192653.log
+------------------------------
+Project: quilt-0.6-a-5
+Task: cha
+Duration: 5.22s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/quilt-0.6-a-5/cha_logs/run_20250526-192657.log
+------------------------------
+Project: jmoney-0.4.4
+Task: cha
+Duration: 8.12s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jmoney-0.4.4/cha_logs/run_20250526-192702.log
+------------------------------
+Project: fitlibraryforfitnesse-20100806
+Task: cha
+Duration: 9.13s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/fitlibraryforfitnesse-20100806/cha_logs/run_20250526-192710.log
+------------------------------
+Project: drawswf-1.2.9
+Task: cha
+Duration: 19.26s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/drawswf-1.2.9/cha_logs/run_20250526-192719.log
+------------------------------
+Project: jgrapht-0.8.1
+Task: cha
+Duration: 23.68s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jgrapht-0.8.1/cha_logs/run_20250526-192738.log
+------------------------------
+Project: jspwiki-2.8.4
+Task: cha
+Duration: 15.76s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jspwiki-2.8.4/cha_logs/run_20250526-192802.log
+------------------------------
+Project: sunflow-0.07.2
+Task: cha
+Duration: 5.22s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/sunflow-0.07.2/cha_logs/run_20250526-192818.log
+------------------------------
+Project: jrefactory-2.9.19
+Task: cha
+Duration: 13.85s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jrefactory-2.9.19/cha_logs/run_20250526-192823.log
+------------------------------
+Project: freecol-0.10.7
+Task: cha
+Duration: 17.29s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/freecol-0.10.7/cha_logs/run_20250526-192837.log
+------------------------------
+Project: jrat-0.6
+Task: cha
+Duration: 17.47s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jrat-0.6/cha_logs/run_20250526-192854.log
+------------------------------
+Project: james-2.2.0
+Task: cha
+Duration: 6.22s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/james-2.2.0/cha_logs/run_20250526-192912.log
+------------------------------
+Project: sablecc-3.2
+Task: cha
+Duration: 28.13s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/sablecc-3.2/cha_logs/run_20250526-192918.log
+------------------------------

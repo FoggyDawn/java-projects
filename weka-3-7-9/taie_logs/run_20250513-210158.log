@@ -1,0 +1,58 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/weka-3-7-9/taie-output
+Writing options to /home/byx/testSpace/javaprjs/weka-3-7-9/taie-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/weka-3-7-9/taie-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/weka-3-7-9/taie-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/weka-3-7-9/bin ... 2423 classes
+8387 classes with 77659 methods in the world
+WorldBuilder finishes, elapsed time: 15.73s
+pta starts ...
+[Pointer analysis] elapsed time: 0.23s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                3791 (insens) / 5774 (sens)
+#objects:                     816 (insens) / 816 (sens)
+#var points-to:               3454 (insens) / 4988 (sens)
+#static field points-to:      130 (sens)
+#instance field points-to:    384 (sens)
+#array points-to:             34 (sens)
+#reachable methods:           791 (insens) / 3012 (sens)
+#call graph edges:            2916 (insens) / 4243 (sens)
+----------------------------------------
+pta finishes, elapsed time: 0.58s
+cg starts ...
+Call graph has 791 reachable methods and 2916 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/weka-3-7-9/taie-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/weka-3-7-9/taie-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/weka-3-7-9/taie-output/call-edges.txt
+cg finishes, elapsed time: 0.15s
+Tai-e finishes, elapsed time: 16.62s
+[Task Info]
+Task Name: taie
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: taie-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/weka-3-7-9
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/weka-3-7-9/taie_logs/run_20250513-210158.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/weka-3-7-9/taie-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-05-13 21:01:58
+Duration: 17.15s
+Peak Memory: 1731.84 MB
+Exit Code: 0

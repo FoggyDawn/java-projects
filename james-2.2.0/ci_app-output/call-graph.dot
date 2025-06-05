@@ -1,0 +1,8 @@
+digraph G {
+  node [color=".3 .2 1.0",shape=box,style=filled];
+  edge [];
+  "0" [label="<java.lang.System: void <clinit>()>",];
+  "1" [label="<java.lang.String: void <clinit>()>",];
+  "2" [label="<org.apache.james.James: void main(java.lang.String[])>",];
+  "3" [label="<java.lang.Object: void <clinit>()>",];
+}

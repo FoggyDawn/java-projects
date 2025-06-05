@@ -1,0 +1,58 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/xalan-2.7.1/taie-output
+Writing options to /home/byx/testSpace/javaprjs/xalan-2.7.1/taie-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/xalan-2.7.1/taie-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/xalan-2.7.1/taie-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/xalan-2.7.1/bin ... 1620 classes
+11723 classes with 111646 methods in the world
+WorldBuilder finishes, elapsed time: 13.84s
+pta starts ...
+[Pointer analysis] elapsed time: 30.89s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                12,8241 (insens) / 64,5305 (sens)
+#objects:                     1,2951 (insens) / 1,3118 (sens)
+#var points-to:               1566,8025 (insens) / 8689,0096 (sens)
+#static field points-to:      1,3684 (sens)
+#instance field points-to:    260,0351 (sens)
+#array points-to:             78,0562 (sens)
+#reachable methods:           1,6126 (insens) / 10,2035 (sens)
+#call graph edges:            10,1106 (insens) / 98,5244 (sens)
+----------------------------------------
+pta finishes, elapsed time: 35.38s
+cg starts ...
+Call graph has 16126 reachable methods and 101106 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/xalan-2.7.1/taie-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/xalan-2.7.1/taie-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/xalan-2.7.1/taie-output/call-edges.txt
+cg finishes, elapsed time: 1.41s
+Tai-e finishes, elapsed time: 50.79s
+[Task Info]
+Task Name: taie
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: taie-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/xalan-2.7.1
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/xalan-2.7.1/taie_logs/run_20250521-123508.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/xalan-2.7.1/taie-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-05-21 12:35:08
+Duration: 51.29s
+Peak Memory: 4449.53 MB
+Exit Code: 0

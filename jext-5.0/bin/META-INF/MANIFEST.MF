@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.6.0
+Created-By: 1.5.0-beta2-b51 (Sun Microsystems Inc.)
+Built-By: gfx
+Main-Class: org.jext.Jext
+Class-Path: jython-2.1.jar dawn-1.1.1.jar looks-1.2.2.jar
+

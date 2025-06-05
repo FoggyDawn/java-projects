@@ -1,0 +1,35 @@
+Writing log to /home/byx/testSpace/javaprjs/marauroa-3.8.1/taie-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/marauroa-3.8.1/taie-output/tai-e-plan.yml
+WorldBuilder starts ...
+5298 classes with 51959 methods in the world
+WorldBuilder finishes, elapsed time: 5.05s
+pta starts ...
+[Pointer analysis] elapsed time: 8.68s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                5,5898 (insens) / 26,1727 (sens)
+#objects:                     6218 (insens) / 6536 (sens)
+#var points-to:               229,5327 (insens) / 1886,3224 (sens)
+#static field points-to:      4256 (sens)
+#instance field points-to:    31,0463 (sens)
+#array points-to:             3,2107 (sens)
+#reachable methods:           8296 (insens) / 5,1784 (sens)
+#call graph edges:            5,1344 (insens) / 77,4042 (sens)
+----------------------------------------
+pta finishes, elapsed time: 9.94s
+cg starts ...
+Call graph has 8296 reachable methods and 51344 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/marauroa-3.8.1/taie-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/marauroa-3.8.1/taie-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/marauroa-3.8.1/taie-output/call-edges.txt
+cg finishes, elapsed time: 0.82s
+Tai-e finishes, elapsed time: 15.98s

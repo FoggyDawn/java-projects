@@ -1,0 +1,35 @@
+Writing log to /home/byx/testSpace/javaprjs/sablecc-3.2/ci_app-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/sablecc-3.2/ci_app-output/tai-e-plan.yml
+WorldBuilder starts ...
+7059 classes with 67246 methods in the world
+WorldBuilder finishes, elapsed time: 4.13s
+pta starts ...
+[Pointer analysis] elapsed time: 0.35s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                7405 (insens) / 2,3253 (sens)
+#objects:                     1373 (insens) / 1373 (sens)
+#var points-to:               1,0549 (insens) / 16,4996 (sens)
+#static field points-to:      51 (sens)
+#instance field points-to:    1712 (sens)
+#array points-to:             58 (sens)
+#reachable methods:           1018 (insens) / 5082 (sens)
+#call graph edges:            5051 (insens) / 9246 (sens)
+----------------------------------------
+pta finishes, elapsed time: 0.77s
+cg starts ...
+Call graph has 1018 reachable methods and 5051 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/sablecc-3.2/ci_app-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/sablecc-3.2/ci_app-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/sablecc-3.2/ci_app-output/call-edges.txt
+cg finishes, elapsed time: 0.19s
+Tai-e finishes, elapsed time: 5.30s

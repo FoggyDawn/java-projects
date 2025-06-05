@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE mxinfo PUBLIC "-//PHOENIX/Mx Info DTD Version 1.0//EN"
+                  "http://jakarta.apache.org/avalon/dtds/phoenix/mxinfo_1_0.dtd">
+
+<mxinfo>
+
+    <topic name="MainJAMESServerManagement" >
+
+      <!-- attributes -->
+
+      <!-- operations -->
+      <operation
+        name="addUser"
+        description="Add a new user"
+        type="boolean"
+      >
+        <param
+          name="userName"
+          description="userName The name of the user being added"
+          type="java.lang.String"
+        />
+        <param
+          name="password"
+          description="password The password of the user being added"
+          type="java.lang.String"
+        />
+      </operation>
+
+    </topic>
+
+</mxinfo>

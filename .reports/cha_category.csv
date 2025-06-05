@@ -1,0 +1,29 @@
+分类,项目列表
+java.lang.RuntimeException: couldn't find class: bsh.EvalError (are your class path and class name given properly?),aoi-2.8.1
+java.lang.RuntimeException: couldn't find class: com.sun.tools.doclets.internal.toolkit.Configuration (are your class path and class name given properly?),jedit-4.3.2
+java.lang.RuntimeException: couldn't find class: org.bouncycastle.tsp.TimeStampTokenInfo (are your class path and class name given properly?),itext-5.0.3
+java.lang.RuntimeException: couldn't find class: java.awt.Window$1 (are your class path and class name given properly?),"emma-2.0.5312,openjms-0.7.7-beta-1,jfreechart-1.0.13,nekohtml-1.9.14,james-2.2.0"
+java.lang.RuntimeException: couldn't find class: javax.mail.internet.MimeUtility$1 (are your class path and class name given properly?),"pooka-3.0-080505,log4j-1.2.16"
+java.lang.RuntimeException: couldn't find class: org.omg.uml.UmlPackage (are your class path and class name given properly?),jag-6.1
+java.lang.RuntimeException: couldn't find class: com.sun.kvem.environment.Obfuscator (are your class path and class name given properly?),proguard-4.5.1
+java.lang.RuntimeException: couldn't find class: org.apache.xalan.res.XSLTErrorResources_zh (are your class path and class name given properly?),xalan-2.7.1
+java.lang.RuntimeException: couldn't find class: org.testng.annotations.Test (are your class path and class name given properly?),jgroups-2.10.0
+java.lang.RuntimeException: couldn't find class: javax.swing.filechooser.FileNameExtensionFilter (are your class path and class name given properly?),megamek-0.35.18
+Success,"jext-5.0,jasml-0.10,jhotdraw-7.5.1,marauroa-3.8.1,drawswf-1.2.9,jgrapht-0.8.1,sablecc-3.2"
+java.lang.RuntimeException: couldn't find class: com.sun.image.codec.jpeg.JPEGDecodeParam (are your class path and class name given properly?),batik-1.7
+java.lang.RuntimeException: couldn't find class: org.apache.xmlrpc.server.XmlRpcServerConfigImpl (are your class path and class name given properly?),freecs-1.3.20100406
+java.lang.RuntimeException: couldn't find class: org.jboss.util.Classes (are your class path and class name given properly?),quartz-1.8.3
+java.lang.RuntimeException: couldn't find class: junit.framework.TestCase (are your class path and class name given properly?),"javacc-5.0,fitjava-1.1"
+java.lang.RuntimeException: couldn't find class: com.apple.eawt.OpenFilesHandler (are your class path and class name given properly?),weka-3-7-9
+java.lang.RuntimeException: couldn't find class: org.apache.commons.collections.primitives.IntIterator (are your class path and class name given properly?),axion-1.0-M2
+java.lang.RuntimeException: couldn't find class: com.sun.jdi.VirtualMachine (are your class path and class name given properly?),sandmark-3.4
+java.lang.RuntimeException: couldn't find class: com.google.common.collect.Lists (are your class path and class name given properly?),checkstyle-5.1
+java.lang.RuntimeException: couldn't find class: org.eclipse.jdt.internal.compiler.ast.OperatorExpression$1 (are your class path and class name given properly?),jasperreports-1.1.0
+java.lang.RuntimeException: couldn't find class: junit.framework.TestListener (are your class path and class name given properly?),quilt-0.6-a-5
+java.lang.RuntimeException: couldn't find class: dori.jasper.engine.JRDataSource (are your class path and class name given properly?),jmoney-0.4.4
+java.lang.RuntimeException: couldn't find class: util.GracefulNamer (are your class path and class name given properly?),fitlibraryforfitnesse-20100806
+java.lang.RuntimeException: couldn't find class: org.freshcookies.security.policy.LocalPolicy (are your class path and class name given properly?),jspwiki-2.8.4
+java.lang.RuntimeException: couldn't find class: org.codehaus.janino.ClassBodyEvaluator (are your class path and class name given properly?),sunflow-0.07.2
+java.lang.RuntimeException: couldn't find class: java.lang.StringBuilder (are your class path and class name given properly?),jrefactory-2.9.19
+java.lang.RuntimeException: couldn't find class: com.jcraft.jorbis.Block (are your class path and class name given properly?),freecol-0.10.7
+java.lang.RuntimeException: couldn't find class: com.sun.jdi.event.MethodEntryEvent (are your class path and class name given properly?),jrat-0.6

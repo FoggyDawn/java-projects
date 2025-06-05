@@ -1,0 +1,54 @@
+!**< def
+!define test1 {!|fitlibrary.specify.DoFixtureFlowUnderTest|
+
+|'''show escaped'''|int property|
+
+|'''show escaped'''|boolean property|
+
+|'''show escaped'''|string property|
+
+|'''show escaped'''|missing property|
+
+|'''show escaped'''|''get''|<ul><li>one</ul>|
+
+|'''show'''|''get''|<ul><li>one</ul>|
+}
+
+**!
+|!-fitlibrary.spec.SpecifyFixture-!|
+|${test1}|!-<table border="1" cellspacing="0">
+<tr><td>fitlibrary.specify.DoFixtureFlowUnderTest</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0">
+<tr><td><b>show escaped</b></td>
+<td>int property</td>
+<td bgcolor=#C0C0FF>2</td></tr>
+</table>
+<br/><table border="1" cellspacing="0">
+<tr><td><b>show escaped</b></td>
+<td>boolean property</td>
+<td bgcolor=#C0C0FF>true</td></tr>
+</table>
+<br/><table border="1" cellspacing="0">
+<tr><td><b>show escaped</b></td>
+<td>string property</td>
+<td bgcolor=#C0C0FF>apple pie</td></tr>
+</table>
+<br/><table border="1" cellspacing="0">
+<tr><td class="error"><b>show escaped</b><hr/> <span class="fit_label">Missing class or Missing method</span></td>
+<td>missing property</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0">
+<tr><td><b>show escaped</b></td>
+<td><i>get</i></td>
+<td>&lt;ul&gt;&lt;li&gt;one&lt;/ul&gt;</td>
+<td bgcolor=#C0C0FF>&lt;ul>&lt;li>one&lt;/ul></td></tr>
+</table>
+<br/><table border="1" cellspacing="0">
+<tr><td><b>show</b></td>
+<td><i>get</i></td>
+<td>&lt;ul&gt;&lt;li&gt;one&lt;/ul&gt;</td>
+<td bgcolor=#C0C0FF><ul><li>one</ul></td></tr>
+</table>-!|

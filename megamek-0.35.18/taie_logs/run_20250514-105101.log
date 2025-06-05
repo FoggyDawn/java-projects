@@ -1,0 +1,58 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/megamek-0.35.18/taie-output
+Writing options to /home/byx/testSpace/javaprjs/megamek-0.35.18/taie-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/megamek-0.35.18/taie-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: f4f1c5d3c96f68ac1bf30f8a35a3b8baefe40761
+Writing analysis plan to /home/byx/testSpace/javaprjs/megamek-0.35.18/taie-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/megamek-0.35.18/bin ... 2185 classes
+7687 classes with 70450 methods in the world
+WorldBuilder finishes, elapsed time: 11.28s
+pta starts ...
+[Pointer analysis] elapsed time: 0.91s
+-------------- Pointer analysis statistics: --------------
+#var pointers:                3,9062 (insens) / 12,2227 (sens)
+#objects:                     5600 (insens) / 5600 (sens)
+#var points-to:               6,9545 (insens) / 29,9004 (sens)
+#static field points-to:      461 (sens)
+#instance field points-to:    1,3965 (sens)
+#array points-to:             658 (sens)
+#reachable methods:           4388 (insens) / 3,3101 (sens)
+#call graph edges:            3,2982 (insens) / 9,0512 (sens)
+----------------------------------------
+pta finishes, elapsed time: 1.52s
+cg starts ...
+Call graph has 4388 reachable methods and 32982 edges
+Dumping call graph to /home/byx/testSpace/javaprjs/megamek-0.35.18/taie-output/call-graph.dot
+Dumping reachable methods to /home/byx/testSpace/javaprjs/megamek-0.35.18/taie-output/reachable-methods.txt
+Dumping call edges to /home/byx/testSpace/javaprjs/megamek-0.35.18/taie-output/call-edges.txt
+cg finishes, elapsed time: 0.58s
+Tai-e finishes, elapsed time: 13.53s
+[Task Info]
+Task Name: taie
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: taie-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/megamek-0.35.18
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/megamek-0.35.18/taie_logs/run_20250514-105101.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/megamek-0.35.18/taie-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-05-14 10:51:01
+Duration: 13.94s
+Peak Memory: 1465.42 MB
+Exit Code: 0
