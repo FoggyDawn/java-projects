@@ -67,4 +67,4 @@ if __name__ == "__main__":
 
     exclude = [".lib",".git",".idea",".reports",".task_summary",".gitignore"]
 
-    delete_large_files(os.getcwd(), 100, exclude)
+    delete_large_files(os.getcwd(), 50, exclude)
