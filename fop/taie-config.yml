@@ -1,0 +1,24 @@
+optionsFile:
+printHelp: false
+appClassPath:
+  - /home/byx/testSpace/javaprjs/fop/fop.jar
+mainClass: Harness
+inputClasses: []
+javaVersion: 6
+prependJVM: false
+allowPhantom: true
+worldBuilderClass: pascal.taie.frontend.soot.SootWorldBuilder
+outputDir: /home/byx/testSpace/javaprjs/antlr/taie-output
+preBuildIR: false
+worldCacheMode: false
+scope: APP
+nativeModel: true
+planFile:
+analyses:
+  pta: cs:1-call;
+  cg: algorithm:pta;dump:true;dump-methods:true;dump-call-edges:true;
+onlyGenPlan: false
+keepResult:
+  - $KEEP-ALL
+classPath:
+  - /home/byx/testSpace/javaprjs/fop/fop-deps.jar

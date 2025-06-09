@@ -21,17 +21,16 @@ def phase1(projects_root, lib_dir, option_file_name):
     :param lib_dir: 公共库目录（绝对路径，如 /home/user/default-lib）
     """
 
-
     # 获取所有公共库的绝对路径
     lib_dir = Path(lib_dir).resolve()
     print(lib_dir)
-    jar_paths = [
-        str(jar.resolve())  # 强制转换为绝对路径
-        for jar in lib_dir.glob("**/*.jar")
-        if jar.is_file()
-    ]
+    # jar_paths = [
+    #     str(jar.resolve())  # 强制转换为绝对路径
+    #     for jar in lib_dir.glob("**/*.jar")
+    #     if jar.is_file()
+    # ]
 
-    exclude_dirs = ['.lib', '.idea','.task_summary','.reports']
+    exclude_dirs = ['.lib', '.idea','.task_summary','.reports','.git']
 
     # 为每个项目生成配置
     for project_dir in Path(projects_root).iterdir():
@@ -48,12 +47,21 @@ def phase1(projects_root, lib_dir, option_file_name):
 
             # 先复制基础配置（保留顺序）
             for key in base_config:
-                if key != "classPath":
-                    config[key] = base_config[key]
+                config[key] = base_config[key]
+                if key == "classPath":
+                    for lib in base_config["classPath"]:
+                        if Path(lib).is_dir() :
+                            jar_paths = [
+                                str(jar.resolve())  # 强制转换为绝对路径
+                                for jar in Path(lib).glob("**/*.jar")
+                                if jar.is_file()
+                            ]
+                            config["classPath"].extend(jar_paths)
+                            config["classPath"].remove(lib)
 
             # 最后添加 classPath 和项目特定字段
-            config["classPath"] = jar_paths  # 确保 classPath 在最后
-            config["appClassPath"] = [str(project_dir / "bin")]
+            # config["classPath"] = jar_paths  # 确保 classPath 在最后
+            # config["appClassPath"] = [str(project_dir / "bin")]
 
             # 写入项目目录
             config_path = project_dir / option_file_name  # "taie-config.yml"
@@ -104,7 +112,7 @@ def change_config_all(projects_root, config_name, output_dir, exclude_dirs=None)
     :param projects_root: 项目根目录路径
     :param exclude_dirs: 要排除的目录名列表（默认包含 ['.lib', '.idea']）
     """
-    exclude_dirs = exclude_dirs or ['.lib', '.idea','.task_summary','.reports']
+    exclude_dirs = exclude_dirs or ['.lib', '.idea','.task_summary','.reports','.git']
     projects_root = Path(projects_root).resolve()
 
     # 遍历所有子目录
@@ -134,10 +142,10 @@ def change_config_all(projects_root, config_name, output_dir, exclude_dirs=None)
         #
         config["outputDir"] = str((project_dir / output_dir).resolve())
 
-        config["allowPhantom"] = False
+        config["allowPhantom"] = True
 
         # 改变pta算法
-        config["analyses"] = {'cg': 'algorithm:cha;dump:true;dump-methods:true;dump-call-edges:true;'}
+        config["analyses"] = {'cg': 'algorithm:cha;dump-methods:true;'}
         # config["analyses"]["pta"] = "cs:ci;implicit-entries:false;handle-invokedynamic:true"
 
         # 改变cache模式
@@ -154,11 +162,11 @@ def change_config_all(projects_root, config_name, output_dir, exclude_dirs=None)
 # 使用示例
 if __name__ == "__main__":
     # 第一阶段：生成项目配置
-    # phase1(
-    #     projects_root="/home/byx/testSpace/javaprjs",  # 包含多个项目的根目录
-    #     lib_dir="./.lib",       # 公共库目录
-    #     option_file_name="cha-config.yml"
-    # )
+    phase1(
+        projects_root="/home/byx/testSpace/javaprjs",  # 包含多个项目的根目录
+        lib_dir="./.lib",       # 公共库目录
+        option_file_name="cha-config.yml"
+    )
     #
     # # 第二阶段：补充 JRE 路径
     # for config_file in Path("/home/byx/testSpace/javaprjs").rglob("cha-config.yml"):

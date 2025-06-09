@@ -1,6 +1,9 @@
 optionsFile: null
 printHelp: false
 classPath:
+- java-benchmarks/JREs/jre1.5/jce.jar
+- java-benchmarks/JREs/jre1.5/jsse.jar
+- java-benchmarks/JREs/jre1.5/rt.jar
 - ../../testSpace/javaprjs/.lib/maven-artifact-2.0.jar
 - ../../testSpace/javaprjs/.lib/ant-launcher-1.6.5.jar
 - ../../testSpace/javaprjs/.lib/org.apache.servicemix.bundles.jetty-6.1.25_1.jar
@@ -385,16 +388,13 @@ classPath:
 - ../../testSpace/javaprjs/.lib/acegi-security-tiger-1.0.0-RC2.jar
 - ../../testSpace/javaprjs/.lib/remoteExperimentServer.jar
 - ../../testSpace/javaprjs/.lib/spring-context-support.jar
-- java-benchmarks/JREs/jre1.5/jce.jar
-- java-benchmarks/JREs/jre1.5/jsse.jar
-- java-benchmarks/JREs/jre1.5/rt.jar
 appClassPath:
 - ../../testSpace/javaprjs/jext-5.0/bin
 mainClass: org.jext.Jext
 inputClasses: []
 javaVersion: 5
 prependJVM: false
-allowPhantom: false
+allowPhantom: true
 worldBuilderClass: pascal.taie.frontend.soot.SootWorldBuilder
 outputDir: ../../testSpace/javaprjs/jext-5.0/cha-output
 preBuildIR: false
@@ -403,7 +403,7 @@ scope: APP
 nativeModel: true
 planFile: null
 analyses:
-  cg: algorithm:cha;dump:true;dump-methods:true;dump-call-edges:true;
+  cg: algorithm:cha;dump-methods:true;
 onlyGenPlan: false
 keepResult:
 - $KEEP-ALL

@@ -1,0 +1,45 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/fop/cha-output
+Writing options to /home/byx/testSpace/javaprjs/fop/cha-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/fop/cha-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: c7be5bc7169859d534212a5d557c34b177e43d7c
+Writing analysis plan to /home/byx/testSpace/javaprjs/fop/cha-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/fop/fop.jar ... 998 classes
+7969 classes with 68262 methods in the world
+WorldBuilder finishes, elapsed time: 7.34s
+cg starts ...
+Building call graph by CHA
+Ignore methods of java.lang.Object
+Call graph has 37104 reachable methods and 370325 edges
+Dumping reachable methods to /home/byx/testSpace/javaprjs/fop/cha-output/reachable-methods.txt
+cg finishes, elapsed time: 13.41s
+Tai-e finishes, elapsed time: 20.89s
+[Task Info]
+Task Name: cha
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: cha-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/fop
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/fop/cha_logs/run_20250606-165034.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/fop/cha-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-06-06 16:50:34
+Duration: 21.37s
+Peak Memory: 2772.03 MB
+Exit Code: 0

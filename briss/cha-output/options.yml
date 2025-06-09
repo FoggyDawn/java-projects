@@ -1,0 +1,31 @@
+optionsFile: null
+printHelp: false
+classPath:
+- ../../testSpace/javaprjs/briss/0.9/bctsp-jdk15-1.46.jar
+- ../../testSpace/javaprjs/briss/0.9/jai-imageio-1.0.jar
+- ../../testSpace/javaprjs/briss/0.9/bcmail-jdk15-1.46.jar
+- ../../testSpace/javaprjs/briss/0.9/bcprov-jdk15-1.46.jar
+- ../../testSpace/javaprjs/briss/0.9/jai-core-1.0.jar
+- ../../testSpace/javaprjs/briss/0.9/briss-0.9.jar
+- ../../testSpace/javaprjs/briss/0.9/jpedal-4.74b27.jar
+- ../../testSpace/javaprjs/briss/0.9/itextpdf-5.2.0.jar
+- ../../testSpace/javaprjs/briss/0.9/jai-codec-1.0.jar
+appClassPath:
+- ../../testSpace/javaprjs/briss/0.9/briss-0.9.jar
+mainClass: at.laborg.briss.Briss
+inputClasses: []
+javaVersion: 6
+prependJVM: false
+allowPhantom: true
+worldBuilderClass: pascal.taie.frontend.soot.SootWorldBuilder
+outputDir: ../../testSpace/javaprjs/briss/cha-output
+preBuildIR: false
+worldCacheMode: false
+scope: APP
+nativeModel: true
+planFile: null
+analyses:
+  cg: algorithm:cha;dump-methods:true;
+onlyGenPlan: false
+keepResult:
+- $KEEP-ALL

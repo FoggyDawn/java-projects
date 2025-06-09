@@ -11,14 +11,12 @@ Tai-e Version: 0.5.2-SNAPSHOT
 Tai-e Commit: c7be5bc7169859d534212a5d557c34b177e43d7c
 Writing analysis plan to /home/byx/testSpace/javaprjs/jhotdraw-7.5.1/cha-output/tai-e-plan.yml
 WorldBuilder starts ...
-7058 classes with 66335 methods in the world
-WorldBuilder finishes, elapsed time: 5.74s
+7064 classes with 66335 methods in the world
+WorldBuilder finishes, elapsed time: 5.48s
 cg starts ...
 Building call graph by CHA
 Ignore methods of java.lang.Object
 Call graph has 40266 reachable methods and 483033 edges
-Dumping call graph to /home/byx/testSpace/javaprjs/jhotdraw-7.5.1/cha-output/call-graph.dot
 Dumping reachable methods to /home/byx/testSpace/javaprjs/jhotdraw-7.5.1/cha-output/reachable-methods.txt
-Dumping call edges to /home/byx/testSpace/javaprjs/jhotdraw-7.5.1/cha-output/call-edges.txt
-cg finishes, elapsed time: 21.51s
-Tai-e finishes, elapsed time: 27.41s
+cg finishes, elapsed time: 15.30s
+Tai-e finishes, elapsed time: 20.94s

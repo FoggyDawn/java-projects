@@ -220,11 +220,8 @@ def main():
     results = []
 
     # 使用示例
-    excluded_list = load_excluded_projects(root_dir/".reports"/"blacklist.csv")
-    excluded_list.append('.lib')
-    excluded_list.append('.idea')
-    excluded_list.append('.task_summary')
-    excluded_list.append('.reports')
+    # excluded_list = load_excluded_projects(root_dir/".reports"/"blacklist.csv")
+    excluded_list = ['.lib', '.idea', '.task_summary', '.reports', '.git']
     print(f"需排除的项目：{excluded_list}")
 
     # 遍历处理子目录

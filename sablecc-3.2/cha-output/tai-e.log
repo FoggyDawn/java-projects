@@ -11,14 +11,12 @@ Tai-e Version: 0.5.2-SNAPSHOT
 Tai-e Commit: c7be5bc7169859d534212a5d557c34b177e43d7c
 Writing analysis plan to /home/byx/testSpace/javaprjs/sablecc-3.2/cha-output/tai-e-plan.yml
 WorldBuilder starts ...
-7056 classes with 67246 methods in the world
-WorldBuilder finishes, elapsed time: 3.80s
+7059 classes with 67246 methods in the world
+WorldBuilder finishes, elapsed time: 3.92s
 cg starts ...
 Building call graph by CHA
 Ignore methods of java.lang.Object
 Call graph has 34018 reachable methods and 365265 edges
-Dumping call graph to /home/byx/testSpace/javaprjs/sablecc-3.2/cha-output/call-graph.dot
 Dumping reachable methods to /home/byx/testSpace/javaprjs/sablecc-3.2/cha-output/reachable-methods.txt
-Dumping call edges to /home/byx/testSpace/javaprjs/sablecc-3.2/cha-output/call-edges.txt
-cg finishes, elapsed time: 18.10s
-Tai-e finishes, elapsed time: 22.08s
+cg finishes, elapsed time: 14.03s
+Tai-e finishes, elapsed time: 18.11s

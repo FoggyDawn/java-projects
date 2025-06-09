@@ -1,0 +1,70 @@
+optionsFile:
+printHelp: false
+appClassPath:
+  - /home/byx/testSpace/javaprjs/columba/1.4/columba.jar
+mainClass: org.columba.core.main.Main
+inputClasses: []
+javaVersion: 6
+prependJVM: false
+allowPhantom: true
+worldBuilderClass: pascal.taie.frontend.soot.SootWorldBuilder
+outputDir: /home/byx/testSpace/javaprjs/columba/cha-output
+preBuildIR: false
+worldCacheMode: false
+scope: APP
+nativeModel: true
+planFile:
+analyses:
+  cg: algorithm:cha;dump-methods:true;
+onlyGenPlan: false
+keepResult:
+  - $KEEP-ALL
+classPath:
+  - /home/byx/testSpace/javaprjs/columba/1.4/native/linux
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jpim.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/core-renderer.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jscf-0.3.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/mac_mock.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/migcalendar-5.6.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jdom-1.0.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jcoverage.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/forms-1.0.5.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/macchiato-1.0pre1.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/bsh-2.0b2.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/swingx.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/ical4j-0.9.18.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/usermanual.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/lucene-1.4.3.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/quaqua.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/junit.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/je-2.1.30.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jreleaseinfo-1.2.0.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/ristretto-1.2-all.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/groovy-1.0.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/flexdock-0.4.1.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jhall-2.0_02.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/checkstyle-all-3.4.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jwizz-0.1.3.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/commons-logging.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jython-2.2a1.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/tagsoup-1.0rc3.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/looks-2.0.2.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/frapuccino-1.0pre1.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jarbundler-1.9.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/commons-cli-1.0.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jpa/cglib-2.1.3.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jpa/ehcache-1.2.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jpa/dom4j-1.6.1.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jpa/hibernate-entitymanager.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jpa/jta.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jpa/commons-logging-1.0.4.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jpa/ejb3-persistence.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jpa/hibernate-annotations.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jpa/commons-collections-2.1.1.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jpa/javassist.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jpa/antlr-2.7.6.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jpa/hsqldb.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jpa/jboss-archive-browsing.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jpa/asm-attrs.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jpa/hibernate3.jar
+  - /home/byx/testSpace/javaprjs/columba/1.4/lib/jpa/asm.jar

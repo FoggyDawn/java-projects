@@ -1,0 +1,31 @@
+optionsFile: null
+printHelp: false
+classPath:
+- ../../testSpace/javaprjs/freecol/0.10.3/jars/vorbisspi1.0.3.jar
+- ../../testSpace/javaprjs/freecol/0.10.3/jars/jogg-0.0.7.jar
+- ../../testSpace/javaprjs/freecol/0.10.3/jars/jorbis-0.0.15.jar
+- ../../testSpace/javaprjs/freecol/0.10.3/jars/wstx-lgpl-4.0pr1.jar
+- ../../testSpace/javaprjs/freecol/0.10.3/jars/miglayout-3.7.3.1-swing.jar
+- ../../testSpace/javaprjs/freecol/0.10.3/jars/tritonus_share.jar
+- ../../testSpace/javaprjs/freecol/0.10.3/jars/jsr173_1.0_api.jar
+- ../../testSpace/javaprjs/freecol/0.10.3/jars/commons-cli-1.1.jar
+- ../../testSpace/javaprjs/freecol/0.10.3/jars/cortado-0.6.0.jar
+appClassPath:
+- ../../testSpace/javaprjs/freecol/0.10.3/FreeCol.jar
+mainClass: net.sf.freecol.FreeCol
+inputClasses: []
+javaVersion: 6
+prependJVM: false
+allowPhantom: true
+worldBuilderClass: pascal.taie.frontend.soot.SootWorldBuilder
+outputDir: ../../testSpace/javaprjs/freecol/cha-output
+preBuildIR: false
+worldCacheMode: false
+scope: APP
+nativeModel: true
+planFile: null
+analyses:
+  cg: algorithm:cha;dump-methods:true;
+onlyGenPlan: false
+keepResult:
+- $KEEP-ALL

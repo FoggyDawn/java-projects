@@ -1,0 +1,24 @@
+optionsFile:
+printHelp: false
+appClassPath:
+  - /home/byx/testSpace/javaprjs/log4j/2.14.0
+  - /home/byx/testSpace/javaprjs/log4j/2.14.0/log4j-api-2.14.0.jar
+  - /home/byx/testSpace/javaprjs/log4j/2.14.0/log4j-core-2.14.0.jar
+mainClass: Server
+inputClasses: []
+javaVersion: 8
+prependJVM: false
+allowPhantom: true
+worldBuilderClass: pascal.taie.frontend.soot.SootWorldBuilder
+outputDir: /home/byx/testSpace/javaprjs/log4j/cha-output
+preBuildIR: false
+worldCacheMode: false
+scope: APP
+nativeModel: true
+planFile:
+analyses:
+  cg: algorithm:cha;dump-methods:true;
+onlyGenPlan: false
+keepResult:
+  - $KEEP-ALL
+classPath: []

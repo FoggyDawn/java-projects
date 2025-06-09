@@ -1,0 +1,26 @@
+optionsFile: null
+printHelp: false
+classPath:
+- ../../testSpace/javaprjs/jedit/3.0/lib/LatestVersion.jar
+- ../../testSpace/javaprjs/jedit/3.0/lib/EditBuddy.jar
+- ../../testSpace/javaprjs/jedit/3.0/lib/Firewall.jar
+- ../../testSpace/javaprjs/jedit/3.0/lib/PluginManager.jar
+appClassPath:
+- ../../testSpace/javaprjs/jedit/3.0/jedit.jar
+mainClass: org.gjt.sp.jedit.jEdit
+inputClasses: []
+javaVersion: 6
+prependJVM: false
+allowPhantom: true
+worldBuilderClass: pascal.taie.frontend.soot.SootWorldBuilder
+outputDir: ../../testSpace/javaprjs/jedit/cha-output
+preBuildIR: false
+worldCacheMode: false
+scope: APP
+nativeModel: true
+planFile: null
+analyses:
+  cg: algorithm:cha;dump-methods:true;
+onlyGenPlan: false
+keepResult:
+- $KEEP-ALL

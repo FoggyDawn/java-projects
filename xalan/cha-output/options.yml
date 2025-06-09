@@ -1,0 +1,23 @@
+optionsFile: null
+printHelp: false
+classPath:
+- ../../testSpace/javaprjs/xalan/xalan-deps.jar
+appClassPath:
+- ../../testSpace/javaprjs/xalan/xalan.jar
+mainClass: Harness
+inputClasses: []
+javaVersion: 6
+prependJVM: false
+allowPhantom: true
+worldBuilderClass: pascal.taie.frontend.soot.SootWorldBuilder
+outputDir: ../../testSpace/javaprjs/xalan/cha-output
+preBuildIR: false
+worldCacheMode: false
+scope: APP
+nativeModel: true
+planFile: null
+analyses:
+  cg: algorithm:cha;dump-methods:true;
+onlyGenPlan: false
+keepResult:
+- $KEEP-ALL

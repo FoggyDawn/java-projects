@@ -1,0 +1,30 @@
+optionsFile: null
+printHelp: false
+classPath:
+- ../../testSpace/javaprjs/soot/2.3.0/JFlex.jar
+- ../../testSpace/javaprjs/soot/2.3.0/java_cup.jar
+- ../../testSpace/javaprjs/soot/2.3.0/jasminclasses-2.3.0.jar
+- ../../testSpace/javaprjs/soot/2.3.0/pao.jar
+- ../../testSpace/javaprjs/soot/2.3.0/sootclasses-2.3.0.jar
+- ../../testSpace/javaprjs/soot/2.3.0/polyglot.jar
+- ../../testSpace/javaprjs/soot/2.3.0/coffer.jar
+- ../../testSpace/javaprjs/soot/2.3.0/pth.jar
+appClassPath:
+- ../../testSpace/javaprjs/soot/2.3.0/sootclasses-2.3.0.jar
+mainClass: soot.Main
+inputClasses: []
+javaVersion: 6
+prependJVM: false
+allowPhantom: true
+worldBuilderClass: pascal.taie.frontend.soot.SootWorldBuilder
+outputDir: ../../testSpace/javaprjs/soot/cha-output
+preBuildIR: false
+worldCacheMode: false
+scope: APP
+nativeModel: true
+planFile: null
+analyses:
+  cg: algorithm:cha;dump-methods:true;
+onlyGenPlan: false
+keepResult:
+- $KEEP-ALL

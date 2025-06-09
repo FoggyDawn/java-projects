@@ -1,0 +1,46 @@
+Tai-e starts ...
+Output directory: /home/byx/testSpace/javaprjs/findbugs/cha-output
+Writing options to /home/byx/testSpace/javaprjs/findbugs/cha-output/options.yml
+Writing log to /home/byx/testSpace/javaprjs/findbugs/cha-output/tai-e.log
+java.version: 17.0.14
+java.version.date: 2025-01-21
+java.runtime.version: 17.0.14+7-LTS
+java.vendor: Amazon.com Inc.
+java.vendor.version: Corretto-17.0.14.7.1
+os.name: Linux
+os.version: 5.15.167.4-microsoft-standard-WSL2
+os.arch: amd64
+Tai-e Version: 0.5.2-SNAPSHOT
+Tai-e Commit: c7be5bc7169859d534212a5d557c34b177e43d7c
+Writing analysis plan to /home/byx/testSpace/javaprjs/findbugs/cha-output/tai-e-plan.yml
+WorldBuilder starts ...
+Scanning /home/byx/testSpace/javaprjs/findbugs/3.0/plugin ... 0 classes
+Scanning /home/byx/testSpace/javaprjs/findbugs/3.0/lib/findbugs.jar ... 839 classes
+7419 classes with 67527 methods in the world
+WorldBuilder finishes, elapsed time: 5.61s
+cg starts ...
+Building call graph by CHA
+Ignore methods of java.lang.Object
+Call graph has 35904 reachable methods and 421074 edges
+Dumping reachable methods to /home/byx/testSpace/javaprjs/findbugs/cha-output/reachable-methods.txt
+cg finishes, elapsed time: 13.10s
+Tai-e finishes, elapsed time: 18.86s
+[Task Info]
+Task Name: cha
+Java Path: /home/byx/.jdks/corretto-17.0.14/bin/java
+JAR Path: /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar
+Config File: cha-config.yml
+Project Dir: /home/byx/testSpace/javaprjs/findbugs
+Work Dir: /home/byx/projects/Tai-e
+Log File: /home/byx/testSpace/javaprjs/findbugs/cha_logs/run_20250606-175849.log
+
+[Command]
+/home/byx/.jdks/corretto-17.0.14/bin/java -jar /home/byx/projects/Tai-e/build/tai-e-all-0.5.2-SNAPSHOT.jar --options-file /home/byx/testSpace/javaprjs/findbugs/cha-config.yml
+
+[Output]
+
+[Performance]
+Start Time: 2025-06-06 17:58:49
+Duration: 19.46s
+Peak Memory: 2788.43 MB
+Exit Code: 0

@@ -1,0 +1,35 @@
+optionsFile:
+printHelp: false
+appClassPath:
+  - /home/byx/testSpace/javaprjs/findbugs/3.0/plugin
+  - /home/byx/testSpace/javaprjs/findbugs/3.0/lib/findbugs.jar
+mainClass: edu.umd.cs.findbugs.FindBugs2
+inputClasses: []
+javaVersion: 6
+prependJVM: false
+allowPhantom: true
+worldBuilderClass: pascal.taie.frontend.soot.SootWorldBuilder
+outputDir: /home/byx/testSpace/javaprjs/findbugs/cha-output
+preBuildIR: false
+worldCacheMode: false
+scope: APP
+nativeModel: true
+planFile:
+analyses:
+  cg: algorithm:cha;dump-methods:true;
+onlyGenPlan: false
+keepResult:
+  - $KEEP-ALL
+classPath:
+  - /home/byx/testSpace/javaprjs/findbugs/3.0/lib/annotations.jar
+  - /home/byx/testSpace/javaprjs/findbugs/3.0/lib/asm-commons-3.0.jar
+  - /home/byx/testSpace/javaprjs/findbugs/3.0/lib/findbugsGUI.jar
+  - /home/byx/testSpace/javaprjs/findbugs/3.0/lib/findbugs.jar
+  - /home/byx/testSpace/javaprjs/findbugs/3.0/lib/asm-3.0.jar
+  - /home/byx/testSpace/javaprjs/findbugs/3.0/lib/dom4j-full.jar
+  - /home/byx/testSpace/javaprjs/findbugs/3.0/lib/asm-tree-3.0.jar
+  - /home/byx/testSpace/javaprjs/findbugs/3.0/lib/asm-xml-3.0.jar
+  - /home/byx/testSpace/javaprjs/findbugs/3.0/lib/findbugs-ant.jar
+  - /home/byx/testSpace/javaprjs/findbugs/3.0/lib/asm-analysis-3.0.jar
+  - /home/byx/testSpace/javaprjs/findbugs/3.0/lib/asm-util-3.0.jar
+  - /home/byx/testSpace/javaprjs/findbugs/3.0/lib/bcel.jar

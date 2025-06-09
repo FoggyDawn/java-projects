@@ -1,0 +1,35 @@
+optionsFile: null
+printHelp: false
+classPath:
+- ../../testSpace/javaprjs/findbugs/3.0/lib/annotations.jar
+- ../../testSpace/javaprjs/findbugs/3.0/lib/asm-commons-3.0.jar
+- ../../testSpace/javaprjs/findbugs/3.0/lib/findbugsGUI.jar
+- ../../testSpace/javaprjs/findbugs/3.0/lib/findbugs.jar
+- ../../testSpace/javaprjs/findbugs/3.0/lib/asm-3.0.jar
+- ../../testSpace/javaprjs/findbugs/3.0/lib/dom4j-full.jar
+- ../../testSpace/javaprjs/findbugs/3.0/lib/asm-tree-3.0.jar
+- ../../testSpace/javaprjs/findbugs/3.0/lib/asm-xml-3.0.jar
+- ../../testSpace/javaprjs/findbugs/3.0/lib/findbugs-ant.jar
+- ../../testSpace/javaprjs/findbugs/3.0/lib/asm-analysis-3.0.jar
+- ../../testSpace/javaprjs/findbugs/3.0/lib/asm-util-3.0.jar
+- ../../testSpace/javaprjs/findbugs/3.0/lib/bcel.jar
+appClassPath:
+- ../../testSpace/javaprjs/findbugs/3.0/plugin
+- ../../testSpace/javaprjs/findbugs/3.0/lib/findbugs.jar
+mainClass: edu.umd.cs.findbugs.FindBugs2
+inputClasses: []
+javaVersion: 6
+prependJVM: false
+allowPhantom: true
+worldBuilderClass: pascal.taie.frontend.soot.SootWorldBuilder
+outputDir: ../../testSpace/javaprjs/findbugs/cha-output
+preBuildIR: false
+worldCacheMode: false
+scope: APP
+nativeModel: true
+planFile: null
+analyses:
+  cg: algorithm:cha;dump-methods:true;
+onlyGenPlan: false
+keepResult:
+- $KEEP-ALL

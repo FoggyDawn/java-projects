@@ -1,0 +1,163 @@
+Task Summary (2025-06-06 16:52:46)
+==================================================
+Total Tasks: 26
+Success Tasks: 12
+
+Details:
+--------------------------------------------------
+Project: luindex
+Task: cha
+Duration: 17.16s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/luindex/cha_logs/run_20250606-164814.log
+------------------------------
+Project: log4j
+Task: cha
+Duration: 6.84s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/log4j/cha_logs/run_20250606-164832.log
+------------------------------
+Project: eclipse
+Task: cha
+Duration: 17.27s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/eclipse/cha_logs/run_20250606-164838.log
+------------------------------
+Project: xalan
+Task: cha
+Duration: 18.05s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/xalan/cha_logs/run_20250606-164856.log
+------------------------------
+Project: gruntspud
+Task: cha
+Duration: 0.6s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/gruntspud/cha_logs/run_20250606-164914.log
+------------------------------
+Project: jext-5.0
+Task: cha
+Duration: 1.1s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jext-5.0/cha_logs/run_20250606-164914.log
+------------------------------
+Project: jasml-0.10
+Task: cha
+Duration: 1.0s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jasml-0.10/cha_logs/run_20250606-164915.log
+------------------------------
+Project: jhotdraw-7.5.1
+Task: cha
+Duration: 1.2s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jhotdraw-7.5.1/cha_logs/run_20250606-164916.log
+------------------------------
+Project: marauroa-3.8.1
+Task: cha
+Duration: 1.0s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/marauroa-3.8.1/cha_logs/run_20250606-164918.log
+------------------------------
+Project: columba
+Task: cha
+Duration: 6.12s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/columba/cha_logs/run_20250606-164919.log
+------------------------------
+Project: jedit
+Task: cha
+Duration: 18.25s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jedit/cha_logs/run_20250606-164925.log
+------------------------------
+Project: freecol
+Task: cha
+Duration: 6.62s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/freecol/cha_logs/run_20250606-164943.log
+------------------------------
+Project: findbugs
+Task: cha
+Duration: 5.01s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/findbugs/cha_logs/run_20250606-164950.log
+------------------------------
+Project: jython
+Task: cha
+Duration: 19.58s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/jython/cha_logs/run_20250606-164955.log
+------------------------------
+Project: hsqldb
+Task: cha
+Duration: 19.27s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/hsqldb/cha_logs/run_20250606-165014.log
+------------------------------
+Project: fop
+Task: cha
+Duration: 21.37s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/fop/cha_logs/run_20250606-165034.log
+------------------------------
+Project: lusearch
+Task: cha
+Duration: 17.36s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/lusearch/cha_logs/run_20250606-165055.log
+------------------------------
+Project: drawswf-1.2.9
+Task: cha
+Duration: 1.0s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/drawswf-1.2.9/cha_logs/run_20250606-165112.log
+------------------------------
+Project: jgrapht-0.8.1
+Task: cha
+Duration: 1.2s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/jgrapht-0.8.1/cha_logs/run_20250606-165113.log
+------------------------------
+Project: soot
+Task: cha
+Duration: 10.44s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/soot/cha_logs/run_20250606-165114.log
+------------------------------
+Project: bloat
+Task: cha
+Duration: 17.96s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/bloat/cha_logs/run_20250606-165125.log
+------------------------------
+Project: pmd
+Task: cha
+Duration: 20.88s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/pmd/cha_logs/run_20250606-165143.log
+------------------------------
+Project: briss
+Task: cha
+Duration: 2.51s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/briss/cha_logs/run_20250606-165204.log
+------------------------------
+Project: chart
+Task: cha
+Duration: 20.56s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/chart/cha_logs/run_20250606-165206.log
+------------------------------
+Project: antlr
+Task: cha
+Duration: 17.56s
+Status: SUCCESS (Code: 0)
+Log: /home/byx/testSpace/javaprjs/antlr/cha_logs/run_20250606-165227.log
+------------------------------
+Project: sablecc-3.2
+Task: cha
+Duration: 1.31s
+Status: FAILED (Code: 1)
+Log: /home/byx/testSpace/javaprjs/sablecc-3.2/cha_logs/run_20250606-165244.log
+------------------------------

@@ -1,0 +1,23 @@
+optionsFile:
+printHelp: false
+appClassPath:
+  - /home/byx/testSpace/javaprjs/lusearch/lusearch.jar
+mainClass: Harness
+inputClasses: []
+javaVersion: 6
+prependJVM: false
+allowPhantom: true
+worldBuilderClass: pascal.taie.frontend.soot.SootWorldBuilder
+outputDir: /home/byx/testSpace/javaprjs/lusearch/cha-output
+preBuildIR: false
+worldCacheMode: false
+scope: APP
+nativeModel: true
+planFile:
+analyses:
+  cg: algorithm:cha;dump-methods:true;
+onlyGenPlan: false
+keepResult:
+  - $KEEP-ALL
+classPath:
+  - /home/byx/testSpace/javaprjs/lusearch/lusearch-deps.jar

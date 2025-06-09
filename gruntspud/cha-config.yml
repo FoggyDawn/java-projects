@@ -1,0 +1,27 @@
+optionsFile:
+printHelp: false
+appClassPath:
+  - /home/byx/testSpace/javaprjs/gruntspud/0.4.6/GruntspudSA.jar
+mainClass: gruntspud.standalone.JDK13GruntspudHost
+inputClasses: []
+javaVersion: 6
+prependJVM: false
+allowPhantom: true
+worldBuilderClass: pascal.taie.frontend.soot.SootWorldBuilder
+outputDir: /home/byx/testSpace/javaprjs/gruntspud/cha-output
+preBuildIR: false
+worldCacheMode: false
+scope: APP
+nativeModel: true
+planFile:
+analyses:
+  cg: algorithm:cha;dump-methods:true;
+onlyGenPlan: false
+keepResult:
+  - $KEEP-ALL
+classPath:
+  - /home/byx/testSpace/javaprjs/jedit/3.0/jedit.jar
+  - /home/byx/testSpace/javaprjs/jedit/3.0/lib/LatestVersion.jar
+  - /home/byx/testSpace/javaprjs/jedit/3.0/lib/EditBuddy.jar
+  - /home/byx/testSpace/javaprjs/jedit/3.0/lib/Firewall.jar
+  - /home/byx/testSpace/javaprjs/jedit/3.0/lib/PluginManager.jar

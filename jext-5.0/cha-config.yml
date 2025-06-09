@@ -6,7 +6,7 @@ mainClass: org.jext.Jext
 inputClasses: []
 javaVersion: 5
 prependJVM: false
-allowPhantom: false
+allowPhantom: true
 worldBuilderClass: pascal.taie.frontend.soot.SootWorldBuilder
 outputDir: /home/byx/testSpace/javaprjs/jext-5.0/cha-output
 preBuildIR: false
@@ -15,11 +15,14 @@ scope: APP
 nativeModel: true
 planFile:
 analyses:
-  cg: algorithm:cha;dump:true;dump-methods:true;dump-call-edges:true;
+  cg: algorithm:cha;dump-methods:true;
 onlyGenPlan: false
 keepResult:
   - $KEEP-ALL
 classPath:
+  - /home/byx/projects/Tai-e/java-benchmarks/JREs/jre1.5/jce.jar
+  - /home/byx/projects/Tai-e/java-benchmarks/JREs/jre1.5/jsse.jar
+  - /home/byx/projects/Tai-e/java-benchmarks/JREs/jre1.5/rt.jar
   - /home/byx/testSpace/javaprjs/.lib/maven-artifact-2.0.jar
   - /home/byx/testSpace/javaprjs/.lib/ant-launcher-1.6.5.jar
   - /home/byx/testSpace/javaprjs/.lib/org.apache.servicemix.bundles.jetty-6.1.25_1.jar
@@ -404,6 +407,3 @@ classPath:
   - /home/byx/testSpace/javaprjs/.lib/acegi-security-tiger-1.0.0-RC2.jar
   - /home/byx/testSpace/javaprjs/.lib/remoteExperimentServer.jar
   - /home/byx/testSpace/javaprjs/.lib/spring-context-support.jar
-  - /home/byx/projects/Tai-e/java-benchmarks/JREs/jre1.5/jce.jar
-  - /home/byx/projects/Tai-e/java-benchmarks/JREs/jre1.5/jsse.jar
-  - /home/byx/projects/Tai-e/java-benchmarks/JREs/jre1.5/rt.jar
